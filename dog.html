@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Libs</title>
+    <link rel="stylesheet" href="style.css">
+    <a href="Halloween.html">Home</a>
+    <a href="cat.html">Cat</a>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Dog Mad Libs</h1>
+            <h2> Fun Mad Libs</h2>
+            <p> Mad Libs are stories , fill in the blank for a fun dog story.</p>
+
+        </header>
+        <main>
+            <form id="Madlibs-form" name="Madlibs-form" onsubmit="submitMadLibs(event)">
+                <section id="inputs">
+                    <div class="all-inputs">
+                        <label for="Dog type"> Dog type</label>
+                        <input type="text" id="dog-type" name="dog type" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="name"> name</label>
+                        <input type="text" id="dog-name" name="name" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="day">place</label>
+                        <input type="text" id="day" name="day" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="verb"> verb</label>
+                        <input type="text" id="dog-verb" name="verb" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="locatoin"> locatoin</label>
+                        <input type="text" id="locatoin" name="locatoin" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="verb"> verb</label>
+                        <input type="text" id="dog-verb" name="verb" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="furniture"> Adjective</label>
+                        <input type="text" id="furniture" name="furniture" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="dog-holiday"> holiday</label>
+                        <input type="text" id="dog-holiday" name="holiday" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="PLURAL">Adjective</label>
+                        <input type="text" id="dog-adjective" name="Adjective" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="dog-Adjective2">Adjective</label>
+                        <input type="text" id="dog-Adjective2" name="Adjective" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="verb">verb</label>
+                        <input type="text" id="dog-verb2" name="verb" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="Adjective">Adjective</label>
+                        <input type="text" id="dog-adjective3" name="Adjective" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="food">food</label>
+                        <input type="text" id="dog-food" name="food" required>
+                    </div>
+
+                </section>
+                <section id="submit">
+                    <button id="submit-btn" type="submit">submit</button>
+                </section>
+            </form>
+        </main>
+    </div>
+    <p id="results">
+        "You won't believe what my pet _______, _______ did last _______! After a long day of _______ at _______, I came
+        home to find what he/she had _______ all over the new _______. I had just bought it last _______, and it's
+        already _______. I have no idea what I'm going to do about this. I do know, however, that I need to punish my
+        pet! I was considering _______ him/her, but I felt that was a bit _______. Maybe I should let it slide and try
+        to calm down by eating my comfort food _______ _______."
+    </p>
+
+</body>
+
+</html>

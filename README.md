@@ -1,6 +1,6 @@
 # number-game
 
-Charles E. Campbell
+Charles Campbell
 Jordan Kwan
 Mahad Ali
 Sage Jasinski

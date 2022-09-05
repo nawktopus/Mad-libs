@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Libs</title>
+    <link rel="stylesheet" href="style.css">
+    <a href="cat.html">cat</a>
+    <a href="dog.html">dog</a>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Halloween Mad Libs</h1>
+            <h2> Fun Mad Libs</h2>
+            <p> Mad Libs are stories , fill in the blank for a fun Halloween story.</p>
+
+        </header>
+        <main>
+            <form id="Madlibs-form" name="Madlibs-form" onsubmit="submitMadLibs(event)">
+                <section id="inputs">
+                    <div class="all-inputs">
+                        <label for="Holiday"> Holiday</label>
+                        <input type="text" id="holiday" name="Holiday" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="costume"> Halloween costume</label>
+                        <input type="text" id="costume" name="costume" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="place">place</label>
+                        <input type="text" id="place" name="place" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="person"> person</label>
+                        <input type="text" id="person" name="person" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="Adjective"> Adjective</label>
+                        <input type="text" id="Adjective" name="Adjective" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="verb"> verb</label>
+                        <input type="text" id="verb" name="verb" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="Adjective2"> Adjective</label>
+                        <input type="text" id="Adjective2" name="Adjective2" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="food"> food</label>
+                        <input type="text" id="food" name="food" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="PLURAL">PLURAL NOUN</label>
+                        <input type="text" id="PLURAL" name="PLURAL" required>
+                    </div>
+
+                </section>
+                <section id="submit">
+                    <button id="submit-btn" type="submit">submit</button>
+                </section>
+            </form>
+        </main>
+    </div>
+    <p id="results">
+        "I can't believe it's already _______! I can't wait to put on my ________ and visit _________ in my
+        neighborhood, this year, I am going to dress up as a _______ with _______. Before i _______ I make sure to grab
+        my _______ _______ to hold all of mt _______. Finally, all of my _______ are ready to go."
+    </p>
+
+</body>
+
+</html>

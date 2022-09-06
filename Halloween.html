@@ -1,91 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <div class="hastags">
-        <a href="cat.html">Cat Mad Libs</a>
-        <a href="dog.html">Dogs Mad Libs</a>
-        <!-- <link rel="stylesheet" href="style.css"> -->
+        </header>
+        <main>
+            <form id="Madlibs-form" name="Madlibs-form" onsubmit="submitMadLibs(event)">
+                <section id="inputs">
+                    <div class="all-inputs">
+                        <label for="Holiday"> Holiday</label>
+                        <input type="text" id="holiday" name="Holiday" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="costume"> Halloween Costume</label>
+                        <input type="text" id="costume" name="costume" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="place">Place</label>
+                        <input type="text" id="place" name="place" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="person"> Person</label>
+                        <input type="text" id="person" name="person" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="Adjective"> Adjective</label>
+                        <input type="text" id="Adjective" name="Adjective" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="verb"> Verb</label>
+                        <input type="text" id="verb" name="verb" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="Adjective2"> Adjective</label>
+                        <input type="text" id="Adjective2" name="Adjective2" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="food"> Food</label>
+                        <input type="text" id="food" name="food" required>
+                    </div>
+                    <div class="all-inputs">
+                        <label for="PLURAL">Plural Noun</label>
+                        <input type="text" id="PLURAL" name="PLURAL" required>
+                    </div>
+
+                </section>
+                <section id="submit">
+                    <button id="submit-btn" type="submit">Submit</button>
+                </section>
+            </form>
+        </main>
     </div>
-    <link rel="stylesheet" href="style.css">
+    <!-- <p id="results">
+        "I can't believe it's already _______! I can't wait to put on my ________ and visit _________ in my
+        neighborhood, this year, I am going to dress up as a _______ with _______. Before i _______ I make sure to grab
+        my _______ _______ to hold all of mt _______. Finally, all of my _______ are ready to go."
+    </p> -->
 
-</head>
-
-<body>
-    <div id="content">
-        <h3>Halloween Mad Libs</h3>
-        <p>Mad Libs are stories , fill in the blank for a fun Halloween story.</p>
-        <form action="" onsubmit="submitInputs();return false">
-
-            <div class="form-group row">
-                <label class="Halloween" for="holiday">holiday</label>
-                <div class="inputs">
-                    <input class="form" id="input1" required="" type="text">
-                </div>
-            </div>
-            <div class="form">
-                <label class="Halloween" for="costume">Halloween costume</label>
-                <div class="inputs">
-                    <input class="form" id="input2" required="" type="text">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label class="Halloween" for="place">place</label>
-                <div class="inputs">
-                    <input class="form" id="input3" required="" type="text">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label class="Halloween" for="input4">person</label>
-                <div class="inputs">
-                    <input class="form" id="input4" required="" type="text">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label class="Halloween" for="adjective">adjective</label>
-                <div class="inputs">
-                    <input class="form" id="input5" required="" type="text">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label class="Halloween" for="verb2">verb</label>
-                <div class="inputs">
-                    <input class="form" id="input6" required="" type="text">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label class="Halloween" for="adjective2">adjective</label>
-                <div class="inputs">
-                    <input class="form" id="input7" required="" type="text">
-                </div>
-            </div>
-            <div class="form-group row">
-                <label class="Halloween" for="food">food</label>
-                <div class="inputs">
-                    <input class="form" id="input8" required="" type="text">
-                </div>
-            </div>
-
-            <div class="form-group row">
-                <label class="Halloween" for="plural Noun">plural Noun</label>
-                <div class="inputs">
-                    <input class="form" id="input9" required="" type="text">
-                </div>
-            </div>
-
-
-    </div>
-    <div class="form-group row">
-        <button class="btn btn-primary" type="submit">Submit</button>
-        <button class="btn btn-danger" onclick="clearForm()" type="button">Clear</button>
-    </div>
-    </form>
-    </div>
-    <div id="theStory"></div>
 
     <script src="app.js"></script>
 </body>

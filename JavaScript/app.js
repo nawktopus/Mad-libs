@@ -66,9 +66,12 @@ showStory.addEventListener('click', function(){
   wordTwo.textContent = inputTwo.value;
   wordThree.textContent = inputThree.value;
   wordFour.textContent = inputFour.value;
+
+  // window.location.href = 'results2.html';
 })
 
 render();
+// end render section
 
 createMadLibs(); //Calls the function to write the story.
 
@@ -90,7 +93,7 @@ function createMadLibs() { //Creates the story.
 }
 
 function clearForm() { 
-  let userInputs = { input1:"", inputs2:"", inputs3:"", inputs4:"", inputs5:"", inputs6:"", inputs7:"", inputs8:"", inputs9:"", };
+  userInputs = { input1:"", inputs2:"", inputs3:"", inputs4:"", inputs5:"", inputs6:"", inputs7:"", inputs8:"", inputs9:"", };
   document.getElementById("theStory").innerHTML = "";
   document.getElementById('input1').value = "";
   document.getElementById('input2').value = "";

@@ -80,6 +80,7 @@ body{
 .word-input {
     height: 40px;
     font-size: large;
+    text-align: center;
 }
 
 .tag {

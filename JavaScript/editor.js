@@ -21,5 +21,7 @@ sub.addEventListener('click', function(){
     let choice = JSON.stringify(choices);
     localStorage.setItem('drop', choice);
     console.log('Values stored');
+    
+    window.location.href = 'editor-results.html';
 })
 

@@ -2,3 +2,14 @@ nav {
     display: flex;
     justify-content: space-evenly;
 }
+
+.usr-input {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+button {
+    display: flex;
+    align-content: center;
+}

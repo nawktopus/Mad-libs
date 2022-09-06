@@ -1,7 +1,7 @@
 let userInputs = { input1:"", input2:"", input3:"", input4:"", input5:"", input6:"", input7:"", input8:"", input9:"", input10:""}; 
 
 
-let theStory = "<h1>Halloween</h1><p>I can't believe it's already <span id=\"output1\"></span> I can't wait to put on my <span id=\"output2\"></span> and visit <span id=\"output3\"></span> in my neighboor hood, this year, I am going to dress up as a <span id=\"output4\"></span> with <span id=\"output5\"></span>  Before i <span id=\"output6\"></span> I make sure to grab my <span id=\"output7\"></span><span id=\"output8\"></span> <span id=\"output9\"></span>. to hold all of my <span id=\"output10\"></span>  Finally, all of my <span id=\"output11\"></span>, <span id=\"output12\"></span>, are ready to go.</p>";
+let theStory = "<h1>Cat</h1><p>I can't believe it's already <span id=\"output1\"></span> I can't wait to put on my <span id=\"output2\"></span> and visit <span id=\"output3\"></span> in my neighboor hood, this year, I am going to dress up as a <span id=\"output4\"></span> with <span id=\"output5\"></span>  Before i <span id=\"output6\"></span> I make sure to grab my <span id=\"output7\"></span><span id=\"output8\"></span> <span id=\"output9\"></span>. to hold all of my <span id=\"output10\"></span>  Finally, all of my <span id=\"output11\"></span>, <span id=\"output12\"></span>, are ready to go.</p>"
 
 
 let theStory2 = "<h1>Cat</h1>"
@@ -33,19 +33,4 @@ function createMadLibs() { //Creates the story.
   document.getElementById("output8").innerHTML = userInputs.input8;
   document.getElementById("output9").innerHTML =userInputs.input9;
 
-  localStorage.setItem('submitInPuts', JSON.stringify(submitInputs));
-}
-
-function clearForm() { 
-  let userInputs = { input1:"", inputs2:"", inputs3:"", inputs4:"", inputs5:"", inputs6:"", inputs7:"", inputs8:"", inputs9:"", };
-  document.getElementById("theStory").innerHTML = "";
-  document.getElementById('input1').value = "";
-  document.getElementById('input2').value = "";
-  document.getElementById('input3').value = "";
-  document.getElementById('input4').value = "";
-  document.getElementById('input5').value = "";
-  document.getElementById('input6').value = "";
-  document.getElementById('input7').value = "";
-  document.getElementById('input8').value = "";
-  document.getElementById('input9').value = "";
 }

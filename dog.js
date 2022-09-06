@@ -15,7 +15,7 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
   userInputs.input7 = document.getElementById('input7').value;
   userInputs.input8 = document.getElementById('input8').value;
   userInputs.input9= document.getElementById('input9').value;
-
+  
   
   createMadLibs(); //Calls the function to write the story.
 }
@@ -33,19 +33,5 @@ function createMadLibs() { //Creates the story.
   document.getElementById("output8").innerHTML = userInputs.input8;
   document.getElementById("output9").innerHTML =userInputs.input9;
 
-  localStorage.setItem('submitInPuts', JSON.stringify(submitInputs));
 }
 
-function clearForm() { 
-  let userInputs = { input1:"", inputs2:"", inputs3:"", inputs4:"", inputs5:"", inputs6:"", inputs7:"", inputs8:"", inputs9:"", };
-  document.getElementById("theStory").innerHTML = "";
-  document.getElementById('input1').value = "";
-  document.getElementById('input2').value = "";
-  document.getElementById('input3').value = "";
-  document.getElementById('input4').value = "";
-  document.getElementById('input5').value = "";
-  document.getElementById('input6').value = "";
-  document.getElementById('input7').value = "";
-  document.getElementById('input8').value = "";
-  document.getElementById('input9').value = "";
-}

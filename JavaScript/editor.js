@@ -68,9 +68,3 @@ sub.addEventListener('click', function(){
         window.location.href = 'editor-results.html';
     }
 })
-
-
-make-story.addEventListener('click', function() {
-    JSON.parse(window.localStorage.getItem(choice));
-    window.location.href = 'results2.html';
-})

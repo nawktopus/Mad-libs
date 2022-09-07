@@ -3,15 +3,45 @@ let theStory = "<h1>Halloween</h1><p>I can't believe it's already <span id=\"out
 let theStory2 = "<h1>Dog</h1>"
 let dogBtn = document.getElementById('dog-button');
 let origin = false;
+//gets the text from the input
+let wordOne = document.getElementById('input1');
+let wordTwo = document.getElementById('input2');
+let wordThree = document.getElementById('input3');
+let wordFour = document.getElementById('input4');
+let wordFive = document.getElementById('input5');
+let wordSix = document.getElementById('input6');
+let wordSeven = document.getElementById('input7');
+let wordEight = document.getElementById('input8');
+let wordNine = document.getElementById('input9');
+let wordTen = document.getElementById('input10');
+//makes new obj for storing values
+let bank = new Object();
+
 
 dogBtn.addEventListener('click', function(){
   origin = true;
+
+  bank.inOne = wordOne.value;
+  bank.inTwo = wordTwo.value;
+  bank.inThree = wordThree.value;
+  bank.inFour = wordFour.value;
+  bank.inFive = wordFive.value;
+  bank.inSix = wordSix.value;
+  bank.inSeven = wordSeven.value;
+  bank.inEight = wordEight.value;
+  bank.inNine = wordNine.value;
+  bank.inTen = wordTen.value;
+
+  let words = JSON.stringify(bank);
   let boolean = JSON.stringify(origin)
   let dogOrigin = localStorage.setItem('Dog', boolean)
+  localStorage.setItem('Dogword', words);
+  
   console.log(dogOrigin)
 
   window.location.href = 'results.html'
 })
+
 function submitInputs() { //The user has hit Submit. Collects data from the form.
   userInputs.input1 = document.getElementById('input1').value;
   userInputs.input2 = document.getElementById('input2').value;
@@ -28,7 +58,6 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
 }
   submitInputs(); //Collects any data from the form.
 
-}
 //Charles added local storage for dog
 tag.addEventListener('click', function(){
   window.open(editor.html);

@@ -40,14 +40,15 @@ subBtn.addEventListener('click', function(){
 
   let origin = JSON.stringify(halloweenOrigin);
   localStorage.setItem('Halloween', origin);
-
+  window.location.href = 'results.html'
+})
 
 //Charles added local storage for halloween
-tag.addEventListener('click', function(){
-  //window.open(editor.html);
-  localStorage.setItem('test', 'All my words');
-  localStorage.getItem('test');
-  //window.open(results.html);
+// tag.addEventListener('click', function(){
+//   //window.open(editor.html);
+//   localStorage.setItem('test', 'All my words');
+//   localStorage.getItem('test');
+//   //window.open(results.html);
 
-  window.location.href = 'results.html';
-})
+//   window.location.href = 'results.html';
+// })

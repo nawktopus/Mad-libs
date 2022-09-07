@@ -1,7 +1,7 @@
 let userInputs = { input1:"", input2:"", input3:"", input4:"", input5:"", input6:"", input7:"", input8:"", input9:"", input10:""}; 
 
 
-let theStory = "<h1>Cat</h1><p>I can't believe it's already <span id=\"output1\"></span> I can't wait to put on my <span id=\"output2\"></span> and visit <span id=\"output3\"></span> in my neighboor hood, this year, I am going to dress up as a <span id=\"output4\"></span> with <span id=\"output5\"></span>  Before i <span id=\"output6\"></span> I make sure to grab my <span id=\"output7\"></span><span id=\"output8\"></span> <span id=\"output9\"></span>. to hold all of my <span id=\"output10\"></span>  Finally, all of my <span id=\"output11\"></span>, <span id=\"output12\"></span>, are ready to go.</p>"
+let theStory = "<h1>Cat </h1><p> My cat, <span id=\"output1\"></span> , is the best kitten ever! Her mom was a tabby cat and her dad was a <span id=\"output2\"></span> so she looks more like a(n) <span id=\"output3\"></span> <span id =\"output4\"> </span> Her favorite food is <span id=\"output5\"></span> , but only if you dye it <span id=\"output6\"></span> . One of our favorite games is to <span id=\"output7\"></span> in my bedroom (except she always win). Yesterday I felt <span id=\"output8\"></span> because I thought she had run away... but it turns out she went to <span id=\"output9\"></span> all day because we were out of <span id=\"output10\"></span>. What a thoughtful kitten! </p>"
 
 
 let theStory2 = "<h1>Cat</h1>"
@@ -15,8 +15,7 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
   userInputs.input7 = document.getElementById('input7').value;
   userInputs.input8 = document.getElementById('input8').value;
   userInputs.input9= document.getElementById('input9').value;
-
-  
+  userInputs.input9= document.getElementById('input10').value;
   createMadLibs(); //Calls the function to write the story.
 }
   submitInputs(); //Collects any data from the form.
@@ -32,5 +31,5 @@ function createMadLibs() { //Creates the story.
   document.getElementById("output7").innerHTML = userInputs.input7;
   document.getElementById("output8").innerHTML = userInputs.input8;
   document.getElementById("output9").innerHTML =userInputs.input9;
-
+  document.getElementById("output10").innerHTML =userInputs.input10;
 }

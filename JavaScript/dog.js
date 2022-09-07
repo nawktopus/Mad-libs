@@ -34,4 +34,10 @@ function createMadLibs() { //Creates the story.
   document.getElementById("output9").innerHTML =userInputs.input9;
 
 }
-
+//Charles added local storage for dog
+tag.addEventListener('click', function(){
+  window.open(editor.html);
+  localStorage.setItem('test', 'All my words');
+  localStorage.getItem('test');
+  window.open(results.html);
+})

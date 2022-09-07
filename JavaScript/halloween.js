@@ -35,3 +35,10 @@ function createMadLibs() { //Creates the story.
 
 }
 
+//Charles added local storage for halloween
+tag.addEventListener('click', function(){
+  window.open(editor.html);
+  localStorage.setItem('test', 'All my words');
+  localStorage.getItem('test');
+  window.open(results.html);
+})

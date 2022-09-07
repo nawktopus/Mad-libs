@@ -28,7 +28,10 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
 }
   submitInputs(); //Collects any data from the form.
 
-}
+
+
+  
+
 //Charles added local storage for dog
 tag.addEventListener('click', function(){
   window.open(editor.html);

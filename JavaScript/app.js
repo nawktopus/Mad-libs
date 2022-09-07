@@ -78,35 +78,35 @@ showStory.addEventListener('click', function(){
 render();
 // end render section
 
-createMadLibs(); //Calls the function to write the story.
+// createMadLibs(); //Calls the function to write the story.
 
   submitInputs(); //Collects any data from the form.
-function createMadLibs() { //Creates the story.
-  document.getElementById("theStory").innerHTML = theStory;
-//   document.getElementById("theStory2").innerHTML = theStory2;
-  document.getElementById("output1").innerHTML = userInputs.input1;
-  document.getElementById("output2").innerHTML = userInputs.input2;
-  document.getElementById("output3").innerHTML = userInputs.input3;
-  document.getElementById("output4").innerHTML = userInputs.input4;
-  document.getElementById("output5").innerHTML =userInputs.input5;
-  document.getElementById("output6").innerHTML = userInputs.input6;
-  document.getElementById("output7").innerHTML = userInputs.input7;
-  document.getElementById("output8").innerHTML = userInputs.input8;
-  document.getElementById("output9").innerHTML =userInputs.input9;
+// function createMadLibs() { //Creates the story.
+//   document.getElementById("theStory").innerHTML = theStory;
+// //   document.getElementById("theStory2").innerHTML = theStory2;
+//   document.getElementById("output1").innerHTML = userInputs.input1;
+//   document.getElementById("output2").innerHTML = userInputs.input2;
+//   document.getElementById("output3").innerHTML = userInputs.input3;
+//   document.getElementById("output4").innerHTML = userInputs.input4;
+//   document.getElementById("output5").innerHTML =userInputs.input5;
+//   document.getElementById("output6").innerHTML = userInputs.input6;
+//   document.getElementById("output7").innerHTML = userInputs.input7;
+//   document.getElementById("output8").innerHTML = userInputs.input8;
+//   document.getElementById("output9").innerHTML =userInputs.input9;
 
-  localStorage.setItem('submitInPuts', JSON.stringify(submitInputs));
-}
+//   localStorage.setItem('submitInPuts', JSON.stringify(submitInputs));
+// }
 
-function clearForm() { 
-  userInputs = { input1:"", inputs2:"", inputs3:"", inputs4:"", inputs5:"", inputs6:"", inputs7:"", inputs8:"", inputs9:"", };
-  document.getElementById("theStory").innerHTML = "";
-  document.getElementById('input1').value = "";
-  document.getElementById('input2').value = "";
-  document.getElementById('input3').value = "";
-  document.getElementById('input4').value = "";
-  document.getElementById('input5').value = "";
-  document.getElementById('input6').value = "";
-  document.getElementById('input7').value = "";
-  document.getElementById('input8').value = "";
-  document.getElementById('input9').value = "";
-}
+// function clearForm() { 
+//   userInputs = { input1:"", inputs2:"", inputs3:"", inputs4:"", inputs5:"", inputs6:"", inputs7:"", inputs8:"", inputs9:"", };
+//   document.getElementById("theStory").innerHTML = "";
+//   document.getElementById('input1').value = "";
+//   document.getElementById('input2').value = "";
+//   document.getElementById('input3').value = "";
+//   document.getElementById('input4').value = "";
+//   document.getElementById('input5').value = "";
+//   document.getElementById('input6').value = "";
+//   document.getElementById('input7').value = "";
+//   document.getElementById('input8').value = "";
+//   document.getElementById('input9').value = "";
+// }

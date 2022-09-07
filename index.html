@@ -9,28 +9,28 @@
     <title>Story Game</title>
     <header>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="Halloween.html">Halloween</a>
-            <a href="cat.html">Cats</a>
-            <a href="dog.html">Dogs</a>
-            <a href="results.html">Results</a>
-            <a href="editor.html">Build-Your-Own</a>
+            <a class="button" href="index.html">Home</a>
+            <a class="button" href="Halloween.html">Halloween</a>
+            <a class="button" href="cat.html">Cats</a>
+            <a class="button" href="dog.html">Dogs</a>
+            <a class="button" href="results.html">Results</a>
+            <a class="button" href="editor.html">Build-Your-Own</a>
         </nav>
     </header>
 </head>
-
 <body>
-    <h1>Story Game</h1>
+    <h1 id="main">Story Game</h1>
     <fieldset div class="fieldset-container">
         <h2>Welcome To Story Game!</h2>
     </fieldset>
     <fieldset>
         <h3>
-            <p> Story Game is a reading learning game that improves student's
-                reading skills by playing a reading game that requires creativity and
+            <p> Story Game is a reading and learning game that helps improve student's
+                reading and comprehension 
+                <br> skills by playing a word game that requires creativity and
                 imagination to build their own stories.</p>
    <h3><p>Wanna Play?</p>
-            <p>Select Cat, Dog, Halloween or Make My Own to Play</p></h3>
+            <p>Select Cat, Dog, Halloween or Build-Your-Own to Play</p></h3>
         </fieldset>
 
         <section id="image-section">
@@ -45,12 +45,12 @@
 
 
 
-            <div class="image-container"><img src="asset/halloween-image.jpg" onclick="location.href='halloween.html'">
+            <div class="image-container"><img src="asset/halloween-image.jpg" onclick="location.href='Halloween.html'">
                 <input id="button3" type="button" onclick="location.href='halloween.html'"
                     value="Play Halloween Story Game">
             </div>
 
-            <div class="image-container"><img src="asset/makemyownstory.png" onclick="location.href='halloween.html'">
+            <div class="image-container"><img src="asset/makemyownstory.png" onclick="location.href='editor.html'">
                 <input id="button4" type="button" onclick="location.href='editor.html'" value="Make My Own Story Game">
             </div>
         </section>
@@ -60,7 +60,7 @@
         <script src="app.js"></script>
         <script src="editor.js"></script>
 </body>
-<fieldset>Story Game Copyright 2022 by Charles Campbell, Sage Jasinsky, Mahad Ali and Jordan Kwan <footer></footer>
+<fieldset>Story Game&#169; 2022 by Charles Campbell, Sage Jasinsky, Mahad Ali and Jordan Kwan <footer></footer>
 </fieldset>
 
 </html>

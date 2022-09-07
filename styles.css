@@ -16,6 +16,12 @@ body{
     height: 100px;
     width: 500px;
 }
+.text-input:required{
+    border: solid rgb(230, 115, 115) 5px;
+}
+/* #inOne:required:invalid{
+    border: solid rgb(230, 115, 115) 5px; */
+/* } */
 .card {
     display: flex;
     flex-direction: column;
@@ -29,6 +35,9 @@ body{
     text-align: center;
     font-size: large;
     font-family:'Rubik', sans-serif;
+}
+.drop-menue:required {
+    border: solid rgb(230, 115, 115) 5px;
 }
 .instructions {
     display: flex;
@@ -82,7 +91,6 @@ body{
     font-size: large;
     text-align: center;
 }
-
 .tag {
     text-align: center;
 }

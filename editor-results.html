@@ -9,18 +9,44 @@
             <a href="index.html">Home</a>
             <a href="editor.html">Build-Your-Own</a>
         </nav>
-
         <div>
-            <h3 id="usrOne">No value</h3>
-            <input type="text" id="inOne">
-            <h3 id="usrTwo">No value</h3>
-            <input type="text" id="inTwo">
-            <h3 id="usrThree">No value</h3>
-            <input type="text" id="inThree">
-            <h3 id="usrFour">No value</h3>
-            <input type="text" id="inFour">
-            <button id="make-story">See My Story</button>
+            <div class="instructions">
+                <h1>What's a Story game?</h1>
+                <p>
+                    A story game is a word game where you type in words that will
+                    be substituted for blanks scattered throughout a story. You will be promoted
+                    for words such as:
+                    <br><br>
+                    <strong>Noun</strong> - a noun is a person, place, or thing.
+                    <br><br>
+                    <strong>Verb</strong> - verbs are action words such as Jogged,sing, or fly.
+                    <br><br>
+                    <strong>Adjective</strong> - an adjective is a word that describe a noun. an adjective can say
+                    a nouns shape,size,color,or age along with many other descriptors.
+                    <br><br>
+                    <strong>Adverb</strong> - an adverb modifies a verb to end in -ly such as quietly,softly, or hastily.
+                </p>
+                </div>
         </div>
+        <div class="test">
+            <div class="group">
+                <div class="tag">
+                <h3 id="usrOne">No value</h3>
+                </div>
+                <input type="text" id="inOne" class="word-input">
+                <h3 id="usrTwo" class="tag">No value</h3>
+                <input type="text" id="inTwo" class="word-input">
+            </div>
+
+            <div class="group">
+            <h3 id="usrThree" class="tag">No value</h3>
+            <input type="text" id="inThree" class="word-input">
+            <h3 id="usrFour" class="tag">No value</h3>
+            <input type="text" id="inFour" class="word-input">
+            </div>
+        </div>
+
+        <button id="make-story">See My Story</button>
 
         <div id="renderd-story">
             <p id="storyOne">No user data found</p>
@@ -33,6 +59,6 @@
             <p id="inputFour">No text</p>
         </div>
         <!-- <script src="editor.js"></script> -->
-        <script src="app.js"></script>
+        <script src="JavaScript/app.js"></script>
     </body>
 </html>

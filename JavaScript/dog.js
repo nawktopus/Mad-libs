@@ -28,6 +28,15 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
 }
   submitInputs(); //Collects any data from the form.
 
+}
+//Charles added local storage for dog
+tag.addEventListener('click', function(){
+  window.open(editor.html);
+  localStorage.setItem('test', 'All my words');
+  localStorage.getItem('test');
+  window.open(results.html);
+})
+
 // function createMadLibs() { //Creates the story.
 //   document.getElementById("theStory").innerHTML = theStory;
 // //   document.getElementById("theStory2").innerHTML = theStory2;

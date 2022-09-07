@@ -9,6 +9,14 @@ nav a{
     font-family:'Rubik', sans-serif;
 }
 
+p {
+    font-family: "Comic Sans", cursive;
+}
+
+nav:hover {
+    color:blue;
+}
+
 .usr-input {
     display: flex;
     justify-content: space-around;
@@ -53,7 +61,7 @@ form {
 /*Charles added index.html CSS  */
 .button {
     display: block;
-    width: 115px;
+    width: 150px;
     height: 25px;
     background: #4E9CAF;
     padding: 10px;
@@ -62,6 +70,7 @@ form {
     color: white;
     font-weight: bold;
     line-height: 25px;
+    font-family: "Comic Sans", cursive;
 }
 
 .button:hover {
@@ -82,10 +91,12 @@ h1 {
     padding-bottom: 10px;
     justify-content: center;
     display: flex;
+    font-family: "Comic Sans", cursive;
 }
 h2 {
     display: flex;
     justify-content: center;
+    font-family: "Comic Sans", cursive;
 }
 img {
     display:relative;
@@ -137,11 +148,13 @@ fieldset {
     justify-items: center;
     object-fit: center;
     object-position: 100% 10%;
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
     
 }
 
 /* Sage's styles for editor.html */
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubikreu&display=swap');
 
 body{
     background-color:  #e5e9ec;
@@ -256,35 +269,54 @@ body{
     margin-bottom: 10px;
     justify-content: center;
     font-size: large;
-    background-color: #EEBE14;
+    background-color: #EEBE14; font-size: larger;
+    font-family: "Comic Sans", cursive;
 }
 .btn-primary {
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: center;
-    font-size: large;
+    font-size: larger;
     background-color: #EEBE14;
+    font-family: "Comic Sans", cursive;
 }
 
 #button1 {
     background-color: #EEBE14;
+    font-family: "Comic Sans", cursive;
 }
 
 #button2 {
     background-color: #EEBE14;
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
 }
 
 #button3 {
     background-color: #EEBE14;
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
 }
 
 #button4 {
     background-color: #EEBE14;
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
 }
 
 /* .instructions {
     border: thin solid black;
     width: 420px;
-    
     margin-bottom: 10px;
 } */
+
+
+.form-group-row {
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
+}
+
+.instructions {
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
+}

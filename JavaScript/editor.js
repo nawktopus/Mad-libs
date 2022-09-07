@@ -101,6 +101,8 @@ sub.addEventListener('click', function(){
         window.location.href = 'editor-results.html';
     }
 })
+<<<<<<< HEAD
+=======
 
 make-story.addEventListener('click', function() {
     JSON.parse(window.localStorage.getItem(choice));
@@ -108,3 +110,4 @@ make-story.addEventListener('click', function() {
 })
 
 // makeWords()
+>>>>>>> fa1e07d37906aeaa18a2b8aed62464e9383f35ac

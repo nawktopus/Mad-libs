@@ -264,21 +264,28 @@ body{
 
 /* Jordan's Edits*/
 
-#result-btn {
+/* #result-btn {
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: center;
     font-size: large;
     background-color: #EEBE14; font-size: larger;
     font-family: "Comic Sans", cursive;
-}
+} */
 .btn-primary {
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: center;
-    font-size: larger;
+    font-size: 30px;
     background-color: #EEBE14;
     font-family: "Comic Sans", cursive;
+    border: none;
+    padding: 10px;
+    width: 200px;
+}
+.btn-primary:hover{
+ background-color: #fedf70;
+ color: #4c4e50;
 }
 
 #button1 {

@@ -33,12 +33,14 @@ let valTwo = document.getElementById('usrTwo');
 let valThree = document.getElementById('usrThree');
 let valFour = document.getElementById('usrFour');
 // hides the story until the usr pushes a button
-let renderdStory = document.getElementById('renderd-story').style.visibility = 'hidden';
+// let renderdStory = document.getElementById('renderd-story').style.visibility = 'hidden';
 //get's usr input from the editor results page
 let inputOne = document.getElementById('inOne');
 let inputTwo = document.getElementById('inTwo');
 let inputThree = document.getElementById('inThree');
 let inputFour = document.getElementById('inFour');
+//set an empty object for storing the editor results input page
+let editResult = new Object();
 
 // manipulates the <h3> and <p> to have the user input from the previous page
 function render(){
@@ -59,15 +61,18 @@ function render(){
 
 // When button is pushed it will show the rendered story
 showStory.addEventListener('click', function(){
-  document.getElementById('renderd-story').style.visibility = 'visible';
+  // document.getElementById('renderd-story').style.visibility = 'visible';
   
   //Sets the value of the <p> to the users input on the editor-results page
-  wordOne.textContent = inputOne.value;
-  wordTwo.textContent = inputTwo.value;
-  wordThree.textContent = inputThree.value;
-  wordFour.textContent = inputFour.value;
+  editResult.inOne = inputOne.value;
+  editResult.inTwo = inputTwo.value;
+  editResult.inThree = inputThree.value;
+  editResult.inFour = inputFour.value;
 
-  // window.location.href = 'results2.html';
+  let type = JSON.stringify(editResult)
+  localStorage.setItem('Build', type)
+
+  window.location.href = 'results2.html';
 })
 
 render();

@@ -1,60 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
 
-        </header>
-        <main>
-            <form id="Madlibs-form" name="Madlibs-form" onsubmit="submitMadLibs(event)">
-                <section id="inputs">
-                    <div class="all-inputs">
-                        <label for="Holiday"> Holiday</label>
-                        <input type="text" id="holiday" name="Holiday" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="costume"> Halloween Costume</label>
-                        <input type="text" id="costume" name="costume" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="place">Place</label>
-                        <input type="text" id="place" name="place" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="person"> Person</label>
-                        <input type="text" id="person" name="person" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="Adjective"> Adjective</label>
-                        <input type="text" id="Adjective" name="Adjective" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="verb"> Verb</label>
-                        <input type="text" id="verb" name="verb" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="Adjective2"> Adjective</label>
-                        <input type="text" id="Adjective2" name="Adjective2" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="food"> Food</label>
-                        <input type="text" id="food" name="food" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="PLURAL">Plural Noun</label>
-                        <input type="text" id="PLURAL" name="PLURAL" required>
-                    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                </section>
-                <section id="submit">
-                    <button id="submit-btn" type="submit">Submit</button>
-                </section>
-            </form>
-        </main>
+    <title>Halloween Story</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+
+    <nav>
+    <a class="button" href="index.html">Quit</a>
+    <a class="button" href="dog.html">Dog</a>
+    <a class="button" href="cat.html">Cat</a>
+    </nav>
+
+</head>
+
+<body>
+
+    <div id="content">
+        <h1>The Story of the Haunting</h1>
+        <p class="instructions"><strong>Instructions:</strong> Fill in the blanks for a fun halloween story. Pay close attention to the type of words to use.</p>
+        <form action="" onsubmit="submitInputs();return false">
+            <div class="form-group row">
+                <label for="Holiday"> Holiday</label>
+                <input type="text" id="holiday" name="Holiday" required>
+            </div>
+            <div class="form-group row">
+                <label for="costume"> Halloween Costume</label>
+                <input type="text" id="costume" name="costume" required>
+            </div>
+            <div class="form-group row">
+                <label for="place">Place</label>
+                <input type="text" id="place" name="place" required>
+            </div>
+            <div class="form-group row">
+                <label for="person"> Person</label>
+                <input type="text" id="person" name="person" required>
+            </div>
+            <div class="form-group row">
+                <label for="Adjective"> Adjective</label>
+                <input type="text" id="Adjective" name="Adjective" required>
+            </div>
+            <div class="form-group row">
+                <label for="verb"> Verb</label>
+                <input type="text" id="verb" name="verb" required>
+            </div>
+            <div class="form-group row">
+                <label for="Adjective2"> Adjective</label>
+                <input type="text" id="Adjective2" name="Adjective2" required>
+            </div>
+            <div class="form-group row">
+                <label for="food"> Food</label>
+                <input type="text" id="food" name="food" required>
+            </div>
+            <div class="form-group row">
+                <label for="PLURAL">Plural Noun</label>
+                <input type="text" id="PLURAL" name="PLURAL" required>
+            </div>
+            <div class="form-group row">
+            <button class="btn-primary" type="submit">Submit</button>
+            </div>
+            <p>I can't believe it's already _______  I can't wait to put on my _______ and visit _______ in my neighboor hood, this year, I am going to dress up as a _______ with _______  Before i _______ I make sure to grab my _______ _______ _______. to hold all of my _______  Finally, all of my _______, _______, are ready to go.</p>
+        </form>
     </div>
-    <!-- <p id="results">
-        "I can't believe it's already _______! I can't wait to put on my ________ and visit _________ in my
-        neighborhood, this year, I am going to dress up as a _______ with _______. Before i _______ I make sure to grab
-        my _______ _______ to hold all of mt _______. Finally, all of my _______ are ready to go."
-    </p> -->
-
-
-    <script src="JavaScript/app.js"></script>
+    
+    <script src="JavaScript/dog.js"></script>
 </body>
 
 </html>

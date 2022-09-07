@@ -18,10 +18,6 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
   userInputs.input9= document.getElementById('input9').value;
 }
   // gets the <p> for the story
-let storyOne = document.getElementById('storyOne');
-let storyTwo = document.getElementById('storyTwo');
-let storyThree = document.getElementById('storyThree');
-let storyFour = document.getElementById('storyFour');
 let showStory = document.getElementById('make-story'); 
 let wordOne = document.getElementById('inputOne');
 let wordTwo = document.getElementById('inputTwo');
@@ -44,11 +40,6 @@ let editResult = new Object();
 
 // manipulates the <h3> and <p> to have the user input from the previous page
 function render(){
-  // sets the text content of the <p> tags to whatever is in local storage
-  storyOne.textContent = localStorage.getItem('sentenceOne');
-  storyTwo.textContent = localStorage.getItem('sentenceTwo');
-  storyThree.textContent = localStorage.getItem('sentenceThree');
-  storyFour.textContent = localStorage.getItem('sentenceFour');
   //gets the object from local storage and parses it back into an object
   let newValue = localStorage.getItem('drop');
   let obj = JSON.parse(newValue);
@@ -74,7 +65,6 @@ showStory.addEventListener('click', function(){
 
   window.location.href = 'results2.html';
 })
-
 render();
 // end render section
 

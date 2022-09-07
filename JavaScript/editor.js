@@ -9,6 +9,7 @@ let dropThree = document.getElementById('dropThree');
 let dropFour = document.getElementById('dropFour');
 let choices = new Object();
 let pass = false;
+
 // //getting variable tags from results2 html
 // let tagOne = document.getElementById('inOne');
 // let tagTwo = document.getElementById('inTwo');
@@ -101,13 +102,9 @@ sub.addEventListener('click', function(){
         window.location.href = 'editor-results.html';
     }
 })
-<<<<<<< HEAD
-=======
 
 make-story.addEventListener('click', function() {
     JSON.parse(window.localStorage.getItem(choice));
     window.location.href = 'results2.html';
 })
 
-// makeWords()
->>>>>>> fa1e07d37906aeaa18a2b8aed62464e9383f35ac

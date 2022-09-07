@@ -4,7 +4,7 @@ let tag = document.getElementById('result-btn');
 let theStory = "<h1>Cat </h1><p> My cat, <span id=\"output1\"></span> , is the best kitten ever! Her mom was a tabby cat and her dad was a <span id=\"output2\"></span> so she looks more like a(n) <span id=\"output3\"></span> <span id =\"output4\"> </span> Her favorite food is <span id=\"output5\"></span> , but only if you dye it <span id=\"output6\"></span> . One of our favorite games is to <span id=\"output7\"></span> in my bedroom (except she always win). Yesterday I felt <span id=\"output8\"></span> because I thought she had run away... but it turns out she went to <span id=\"output9\"></span> all day because we were out of <span id=\"output10\"></span>. What a thoughtful kitten! </p>"
 
 
-let theStory2 = "<h1>Cat</h1>"
+let theStory1 = "<h1>Cat</h1>"
 function submitInputs() { //The user has hit Submit. Collects data from the form.
   userInputs.input1 = document.getElementById('input1').value;
   userInputs.input2 = document.getElementById('input2').value;
@@ -35,6 +35,9 @@ function createMadLibs() { //Creates the story.
 }
 
 tag.addEventListener('click', function(){
-  window.open(editor.html)
+  window.open(editor.html);
   localStorage.setItem('test', 'All my words');
+  localStorage.getItem('test');
+  window.open(results.html);
 })
+

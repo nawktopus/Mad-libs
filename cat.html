@@ -5,29 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Mad Libs</title>
+    <title>Cat Story</title>
     <link rel="stylesheet" href="styles.css">
     <nav>
-    <a href="index.html">Quit</a>
-    <a href="Halloween.html">Halloween</a>
-    <a href="dog.html">Dog</a>
+    <a class="button" href="index.html">Quit</a>
+    <a class="button" href="Halloween.html">Halloween</a>
+    <a class="button" href="dog.html">Dog</a>
     </nav>
-    <!-- <script src="app.js"></script> -->
-
 </head>
-
-<body>
-
-    <div id="container">
-        <header>
-            <h1> Cat Mad Libs</h1>
-            <h2> Fun Mad Libs</h2>
-            <p> Mad Libs are stories , fill in the blank for a fun cat story.</p>
-
+<body>   
     <div id="content">
-        <h3>Cat Mad Libs</h3>
-        <p>Mad Libs are stories , fill in the blank for a fun Cat story.</p>
+        <h1>The Story About a Cat</h1>
+        <p class="instructions"><strong>Instructions:</strong> Fill in the blanks for a fun cat story. Pay close attention to the type of words to use.</p>
         <form action="" onsubmit="submitInputs();return false">
             <div class="form-group row">
                 <label class="Cat" for="silly word">Silly Word</label>
@@ -93,12 +82,12 @@
                 <div class="form-group row">
                     <!-- <button class="btn btn-primary" type="submit">Submit</button> -->
                     <!-- <div id="result-btn"> -->
-                    <button id="result-btn">See my story</button>>
+                    <button id="result-btn">Submit</button>
                     <!-- </div> -->
                 </div>
         </form>
     </div>
-    <div id="theStory"></div>
+    <!-- <div id="theStory"></div> -->
     <script src="JavaScript/cats.js"></script>
 </body>
 

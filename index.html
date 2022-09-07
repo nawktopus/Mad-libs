@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Story Game</title>
     <header>
         <nav>
@@ -17,23 +18,49 @@
         </nav>
     </header>
 </head>
-<h1>Story Game</h1>
-<h2>Welcome To Story Game! Wanna Play?</h2>
-<fieldset><img src="asset/cat-image.jpg"></fieldset>
-<input type="button" onclick="location.href='cat.html'" value="Play Cat Story Game">
-<fieldset><img src="asset/dog-image.jpg"></fieldset>
-<input type="button" onclick="location.href='dog.html'" value="Play Dog Story Game">
-
-<fieldset><img src="asset/halloweenimage.png"></fieldset>
-<input type="button" onclick="location.href='makemyownstory.html'" value="Play Halloween Story Game">
-<fieldset><img src="asset/makemyownstory.png"></fieldset>
-<input type="button" onclick="location.href='editor.html'" value="Make My Own Story Game">
 
 <body>
-<main>
-    <fieldsset><p>Select Cat, Dog, Halloween or Make My Own to Play</p></fieldsset>
-</main>
- <script src="app.js"></script>
- <script src="editor.js"></script>
+    <h1>Story Game</h1>
+    <fieldset div class="fieldset-container">
+        <h2>Welcome To Story Game!</h2>
+    </fieldset>
+    <fieldset>
+        <h3>
+            <p> Story Game is a reading learning game that improves student's
+                reading skills by playing a reading game that requires creativity and
+                imagination to build their own stories.</p>
+   <h3><p>Wanna Play?</p>
+            <p>Select Cat, Dog, Halloween or Make My Own to Play</p></h3>
+        </fieldset>
+
+        <section id="image-section">
+
+            <div class="image-container"><img src="asset/cat-image.jpg" onclick="location.href='cat.html'">
+                <input id="button1" type="button" onclick="location.href='cat.html'" value="Play Cat Story Game">
+            </div>
+
+            <div class="image-container"><img src="asset/dog-image.jpg" onclick="location.href='dog.html'">
+                <input id="button2" type="button" onclick="location.href='dog.html'" value="Play Dog Story Game">
+            </div>
+
+
+
+            <div class="image-container"><img src="asset/halloween-image.jpg" onclick="location.href='halloween.html'">
+                <input id="button3" type="button" onclick="location.href='halloween.html'"
+                    value="Play Halloween Story Game">
+            </div>
+
+            <div class="image-container"><img src="asset/makemyownstory.png" onclick="location.href='halloween.html'">
+                <input id="button4" type="button" onclick="location.href='editor.html'" value="Make My Own Story Game">
+            </div>
+        </section>
+        <main>
+
+        </main>
+        <script src="app.js"></script>
+        <script src="editor.js"></script>
 </body>
+<fieldset>Story Game Copyright 2022 by Charles Campbell, Sage Jasinsky, Mahad Ali and Jordan Kwan <footer></footer>
+</fieldset>
+
 </html>

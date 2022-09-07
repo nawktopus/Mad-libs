@@ -10,42 +10,64 @@
             <a href="editor-results.html">Your Story</a>
         </nav>
 
-        <div class="usr-input">
-            <input type="text" placeholder="Type your story here" class="text-input" id="inOne">
-            <input type="text" name="word" list="word-type" id="dropOne">
-                <datalist id="word-type">
-                    <option value="Noun">
-                    <option value="Adjective">
-                    <option value="Verb">
-                    <option value="Adverb">
-                </datalist>
-            <input type="text" placeholder="Type your story here" class="text-input" id="inTwo">
-            <input type="text" name="word" list="word-type" id="dropTwo">
-                <datalist id="word-type">
-                    <option value="Noun">
-                    <option value="Adjective">
-                    <option value="Verb">
-                    <option value="Adverb">
-                </datalist>
-            <input type="text" placeholder="Type your story here" class="text-input" id="inThree">
-            <input type="text" name="word" list="word-type" id="dropThree">
-                <datalist id="word-type">
-                    <option value="Noun">
-                    <option value="Adjective">
-                    <option value="Verb">
-                    <option value="Adverb">
-                </datalist>
-                <input type="text" placeholder="Type your story here" class="text-input" id="inFour">
-                <input type="text" name="word" list="word-type" id="dropFour">
-                <datalist id="word-type">
-                    <option value="Noun">
-                    <option value="Adjective">
-                    <option value="Verb">
-                    <option value="Adverb">
-                </datalist>
-
-                <button id="usr-sub">Make story</button>
+        <div class="instructions">
+        <h1>How to play</h1>
+        <p>Here you can create your own Story. Type in your story then when you want someone to put in a random word 
+            you can choose what kind of a word you want them to type by selecting it from the dropdown menu. Have fun 
+            and be creative.
+        </p>
         </div>
-        <script src="editor.js"></script>
+
+        <div class="usr-input">
+            <div class="card">
+            <input type="text" placeholder="Type your story here" class="text-input" id="inOne">
+            <select name="word" id="dropOne" class="drop-menue">
+                <option value="" disabled selected hidden>Choose a word type</option>
+                <option value="Noun">Noun</option>
+                <option value="Adjective">Adjective</option>
+                <option value="Verb">Verb</option>
+                <option value="Adverb">Adverb</option>
+                </select>
+            </div>
+
+            <div class="card">
+            <input type="text" placeholder="Type your story here" class="text-input" id="inTwo">
+            <select name="word" id="dropTwo" class="drop-menue">
+                <option value="" disabled selected hidden>Choose a word type</option>
+                <option value="Noun">Noun</option>
+                <option value="Adjective">Adjective</option>
+                <option value="Verb">Verb</option>
+                <option value="Adverb">Adverb</option>
+                </select>
+            </div>
+
+            <div class="card">
+            <input type="text" placeholder="Type your story here" class="text-input" id="inThree">
+            <select name="word" id="dropThree" class="drop-menue">
+                <option value="" disabled selected hidden>Choose a word type</option>
+                <option value="Noun">Noun</option>
+                <option value="Adjective">Adjective</option>
+                <option value="Verb">Verb</option>
+                <option value="Adverb">Adverb</option>
+                </select>
+            </div>
+
+            <div class="card">
+                <input type="text" placeholder="Type your story here" class="text-input" id="inFour">
+                <select name="word" id="dropFour" class="drop-menue">
+                    <option value="" disabled selected hidden>Choose a word type</option>
+                    <option value="Noun">Noun</option>
+                    <option value="Adjective">Adjective</option>
+                    <option value="Verb">Verb</option>
+                    <option value="Adverb">Adverb</option>
+                    </select>
+            </div>
+
+            <div id="makestory">
+            <button id="usr-sub">Make story</button>
+            </div>
+        </div>
+
+        <script src="JavaScript/editor.js"></script>
     </body>
 </html>

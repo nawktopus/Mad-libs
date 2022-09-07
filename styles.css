@@ -1,6 +1,7 @@
 nav {
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .usr-input {
@@ -8,11 +9,6 @@ nav {
     justify-content: space-around;
     margin: 100px;
 }
-
-/* button {
-    display: flex;
-    align-content: center;
-} */
 
 body {
     background-color: #E5E9EC;
@@ -48,6 +44,8 @@ form {
 #hashtags {
     text-align: center;
 }
+
+/*Charles added index.html CSS  */
 .button {
     display: block;
     width: 115px;
@@ -60,6 +58,17 @@ form {
     font-weight: bold;
     line-height: 25px;
 }
+
+.button:hover {
+    background-color: blue;
+    transition: s;
+}
+
+#button:hover {
+    background-color: blue;
+    transition: s;
+}
+
 h1 {
     /* border: thin solid black; */
     width: 200px;
@@ -111,7 +120,8 @@ margin: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    padding: auto;
+    padding-top: 20px;
 }
 
 fieldset {

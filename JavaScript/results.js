@@ -25,13 +25,13 @@ let pSeventeen = document.getElementById('Seventeen');
 let pEighteen = document.getElementById('Eighteen');
 let pNineteen = document.getElementById('Nineteen');
 let pTwenty = document.getElementById('Twenty');
-let pTwentyOne = document.getElementById('Twentyone');
-let pTwentyTwo = document.getElementById('Twentytwo');
-let pTwentyThree = document.getElementById('Twentythree');
-let pTwentyFour = document.getElementById('Twentyfour');
-let pTwentyFive = document.getElementById('Twentyfive');
-let pTwentySix = document.getElementById('Twentysix');
-let pTwentySeven = document.getElementById('Twentyseven');
+let pTwentyOne = document.getElementById('TwentyOne');
+let pTwentyTwo = document.getElementById('TwentyTwo');
+let pTwentyThree = document.getElementById('TwentyThree');
+let pTwentyFour = document.getElementById('TwentyFour');
+let pTwentyFive = document.getElementById('TwentyFive');
+let pTwentySix = document.getElementById('TwentySix');
+let pTwentySeven = document.getElementById('TwentySeven');
 
 
 function origin (){

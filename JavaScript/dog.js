@@ -63,25 +63,4 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
 }
   submitInputs(); //Collects any data from the form.
 
-//Charles added local storage for dog
-// tag.addEventListener('click', function(){
-//   window.open(editor.html);
-//   localStorage.setItem('test', 'All my words');
-//   localStorage.getItem('test');
-//   window.open(results.html);
-// })
 
-// function createMadLibs() { //Creates the story.
-//   document.getElementById("theStory").innerHTML = theStory;
-// //   document.getElementById("theStory2").innerHTML = theStory2;
-//   document.getElementById("output1").innerHTML = userInputs.input1;
-//   document.getElementById("output2").innerHTML = userInputs.input2;
-//   document.getElementById("output3").innerHTML = userInputs.input3;
-//   document.getElementById("output4").innerHTML = userInputs.input4;
-//   document.getElementById("output5").innerHTML =userInputs.input5;
-//   document.getElementById("output6").innerHTML = userInputs.input6;
-//   document.getElementById("output7").innerHTML = userInputs.input7;
-//   document.getElementById("output8").innerHTML = userInputs.input8;
-//   document.getElementById("output9").innerHTML =userInputs.input9;
-
-// }

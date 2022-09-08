@@ -80,33 +80,6 @@ function origin (){
 
     }else if (cat === true){
         //if we came from cat
-<<<<<<< HEAD
-        let catwords = localStorage.getItem('Catword');
-        let value = JSON.parse(catwords);
-
-        pOne.textContent = 'My cat, ';
-        pTwo.textContent = value.catOne;
-        pThree.textContent = 'is the best kitten ever! Her Mom was a tabby cat and her dad was a ';
-        pFour.textContent = value.catTwo;
-        pFive.textContent = 'so she looks more like a(n) ';
-        pSix.textContent = value.catThree;
-        pSeven.textContent = value.catFour;
-        pEight.textContent = 'Her favorite food is ';
-        pNine.textContent = value.catFive;
-        pTen.textContent = ', but only if you dye it ';
-        pEleven.textContent = value.catSix;
-        pTwelve.textContent = '. One of our favorite games is to ';
-        pThirteen.textContent = value.catSeven;
-        pFourteen.textContent = 'in my bed room (except she always wins). Yesterday I felt ';
-        pFifteen.textContent = value.catEight;
-        pSixteen.textContent = 'because I thought she had run away... but it turns out she went to ';
-        pSeventeen.textContent = value.catNine;
-        pEighteen.textContent = 'all day because we were out of ';
-        pNineteen.textContent = value.catTen;
-        pTwenty.textContent = '. What a thoughtful kitten!';
-
-=======
->>>>>>> 501fb0a1cc7e11b74497506e38ee860c41858728
         //change <p> to cat story and cat variables
 
         console.log('cat is true');
@@ -120,33 +93,7 @@ function origin (){
         let halloweenWords = localStorage.getItem('HalloweenWords');
         let values = JSON.parse(halloweenWords);
 
-<<<<<<< HEAD
-        pOne.textContent ='I can\'t believe it\s already';
-        pTwo.textContent = values.inOne;
-        pThree.textContent = '! I can\'t wait to put on my';
-        pFour.textContent = values.inTwo;
-        pFive.textContent = 'and visit every';
-        pSix.textContent = values.inThree;
-        pSeven.textContent = 'in my neighborhood. This year, I am going to dress up as (a)';
-        pEight.textContent = values.inFour;
-        pNine.textContent = ' with';
-        pTen.textContent = values.inFive;
-        pEleven.textContent = values.inSix;
-        pTwelve.textContent = '. Before I';
-        pThirteen.textContent = values.inSeven;
-        pFourteen.textContent = 'I make sure to grab my';
-        pFifteen.textContent = values.inEight;
-        pSixteen.textContent = values.inNine;
-        pSeventeen.textContent = 'to hold all of my';
-        pEighteen.textContent = '';
-        pNineteen.textContent = '. Finally, all of my';
-        pTwenty.textContent = '';
-        pTwentyOne.textContent = 'are ready to go!';
         
-
-=======
-        
->>>>>>> 501fb0a1cc7e11b74497506e38ee860c41858728
         //change <p> Halloween story and halloween variables
 
         console.log('halloween is true');

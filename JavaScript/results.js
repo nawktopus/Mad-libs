@@ -66,21 +66,17 @@ function origin (){
         pTwentyThree.textContent = values.inTwelve;
         pTwentyFour.textContent = values.inThirteen;
         //change <p> to the dog story and dog variables
-<<<<<<< HEAD
 
-        // console.log('dog is true')
-=======
-        
 
         console.log('dog is true');
->>>>>>> 501fb0a1cc7e11b74497506e38ee860c41858728
+
         dog = false;
         let stringDog = JSON.stringify(dog);
         localStorage.setItem('Dog', stringDog);
 
     }else if (cat === true){
         //if we came from cat
-<<<<<<< HEAD
+
         let catwords = localStorage.getItem('Catword');
         let value = JSON.parse(catwords);
 
@@ -105,8 +101,7 @@ function origin (){
         pNineteen.textContent = value.catTen;
         pTwenty.textContent = '. What a thoughtful kitten!';
 
-=======
->>>>>>> 501fb0a1cc7e11b74497506e38ee860c41858728
+
         //change <p> to cat story and cat variables
 
         console.log('cat is true');
@@ -120,7 +115,7 @@ function origin (){
         let halloweenWords = localStorage.getItem('HalloweenWords');
         let values = JSON.parse(halloweenWords);
 
-<<<<<<< HEAD
+
         pOne.textContent ='I can\'t believe it\s already';
         pTwo.textContent = values.inOne;
         pThree.textContent = '! I can\'t wait to put on my';
@@ -144,9 +139,9 @@ function origin (){
         pTwentyOne.textContent = 'are ready to go!';
         
 
-=======
+
         
->>>>>>> 501fb0a1cc7e11b74497506e38ee860c41858728
+
         //change <p> Halloween story and halloween variables
 
         console.log('halloween is true');

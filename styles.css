@@ -1,0 +1,333 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family:'Rubik', sans-serif;
+}
+
+p {
+    font-family: "Comic Sans", cursive;
+}
+
+nav:hover {
+    color:blue;
+}
+
+.usr-input {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+body {
+    background-color: #E5E9EC;
+}
+
+#content {
+    text-align: center;
+}
+
+form {
+    /* margin: 0 auto; */
+    /* width: 55%;
+    background-color: rgba(10, 247, 89, 0.277);
+    text-align: center;
+    padding: 1em 0 .1em 0; */
+    /* border: .1px solid gray;  */
+    border: .1px solid rgb(105, 156, 43);
+    text-align: center;
+    background-color: #4DA8C3;
+    padding: 1em 0 .1em 0;
+    width: 55%;
+    margin: auto;
+}
+
+.form {
+    text-align: center;
+}
+
+#hashtags {
+    text-align: center;
+}
+
+/*Charles added index.html CSS  */
+.button {
+    display: block;
+    width: 240px;
+    height: 30px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    font-family: "Comic Sans", cursive;
+    font-size: 30px;
+}
+
+.button:hover {
+    background-color: blue;
+    transition: s;
+}
+
+#button:hover {
+    background-color: blue;
+    transition: s;
+}
+
+h1 {
+    /* border: thin solid black; */
+    width: 200px;
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+    display: flex;
+    font-family: "Comic Sans", cursive;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Comic Sans", cursive;
+}
+img {
+    display:relative;
+    width: 600px;
+    height: 650px ;
+    grid-row: auto;
+    column-fill: auto;
+    border: 2px solid green;
+    object-fit: center;
+    object-position: 100% 10%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+section {
+    display:flex;
+}
+.image-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 5px;
+}
+.image-container input {
+    font-size: large;
+    height: 40px;
+    position: flex;
+    border:3px solid black;
+    padding-top: 5px;
+    padding-left: 5px;
+    align-items: center;
+    margin: 10px;
+    top:50% 
+}
+#image-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: auto;
+    padding-top: 20px;
+}
+
+fieldset {
+    border: 4px solid black;
+    width: 820px;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    object-fit: center;
+    object-position: 100% 10%;
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
+    
+}
+
+/* Sage's styles for editor.html */
+@import url('https://fonts.googleapis.com/css2?family=Rubikreu&display=swap');
+
+body{
+    background-color:  #e5e9ec;
+}
+.text-input {
+    text-align: center;
+    font-size: large;
+    display: block;
+    height: 100px;
+    width: 500px;
+}
+.text-input:required{
+    border: solid rgb(230, 115, 115) 5px;
+}
+/* #inOne:required:invalid{
+    border: solid rgb(230, 115, 115) 5px; */
+/* } */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Rubik', sans-serif;
+}
+.drop-menue {
+    text-align: center;
+    font-size: large;
+    font-family:'Rubik', sans-serif;
+}
+.drop-menue:required {
+    border: solid rgb(230, 115, 115) 5px;
+}
+.instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    border: solid 5px #357688;
+    border-radius: 30px;
+    max-width: 700px;
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
+}
+.instructions p {
+    font-size: large;
+    padding: 5px;
+}
+#makestory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#usr-sub {
+    font-size: large;
+    font-family:'Rubik', sans-serif;
+    width: 500px;
+    height: 50px;
+    background-color: #EEBE14;
+    border: none;
+    color: #4c4e50;
+}
+#usr-sub:hover {
+    background-color: #fedf70;
+    color: #6a809b;
+}
+
+.test{
+    font-family:'Rubik', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.group {
+    margin: 50px;
+}
+.word-input {
+    height: 40px;
+    font-size: large;
+    text-align: center;
+}
+.tag {
+    text-align: center;
+}
+#make-story {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: large;
+    font-family:'Rubik', sans-serif;
+    width: 500px;
+    height: 50px;
+    background-color: #EEBE14;
+    border: none;
+    color: #4c4e50;
+}
+#make-story:hover {
+    background-color: #fedf70;
+    color: #6a809b;
+}
+/* End Sage edits */
+
+/* Jordan's Edits*/ 
+
+/* #result-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-size: large;
+    background-color: #EEBE14; font-size: larger;
+    font-family: "Comic Sans", cursive; */
+    
+.btn-primary {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #EEBE14;
+    font-family: "Comic Sans", cursive;
+    border: none;
+    padding: 10px;
+    width: 200px;
+}
+.btn-primary:hover{
+ background-color: #fedf70;
+ color: #4c4e50;
+}
+
+#button1 {
+    background-color: #EEBE14;
+    font-family: "Comic Sans", cursive;
+}
+
+#button2 {
+    background-color: #EEBE14;
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
+}
+
+#button3 {
+    background-color: #EEBE14;
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
+}
+
+#button4 {
+    background-color: #EEBE14;
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
+}
+
+.instructions {
+    border: thin solid black;
+    width: 420px;
+    margin-bottom: 10px;
+}
+
+
+.form-group-row {
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
+}
+
+
+form {
+    margin-top: 10px;
+}
+
+.hallo {
+    display: inline;
+    line-height: 100px
+
+}

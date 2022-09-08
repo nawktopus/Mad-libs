@@ -20,7 +20,6 @@ let wordThirteen = document.getElementById('input13');
 //makes new obj for storing values
 let bank = new Object();
 
-
 dogBtn.addEventListener('click', function(){
   origin = true;
 
@@ -57,31 +56,8 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
   userInputs.input7 = document.getElementById('input7').value;
   userInputs.input8 = document.getElementById('input8').value;
   userInputs.input9= document.getElementById('input9').value;
-  
-  
-  // createMadLibs(); //Calls the function to write the story.
+  userInputs.input10= document.getElementById('input10').value;
+  userInputs.input11= document.getElementById('input11').value;
+  userInputs.input12= document.getElementById('input12').value;
+  userInputs.input13= document.getElementById('input13').value;
 }
-  submitInputs(); //Collects any data from the form.
-
-//Charles added local storage for dog
-// tag.addEventListener('click', function(){
-//   window.open(editor.html);
-//   localStorage.setItem('test', 'All my words');
-//   localStorage.getItem('test');
-//   window.open(results.html);
-// })
-
-// function createMadLibs() { //Creates the story.
-//   document.getElementById("theStory").innerHTML = theStory;
-// //   document.getElementById("theStory2").innerHTML = theStory2;
-//   document.getElementById("output1").innerHTML = userInputs.input1;
-//   document.getElementById("output2").innerHTML = userInputs.input2;
-//   document.getElementById("output3").innerHTML = userInputs.input3;
-//   document.getElementById("output4").innerHTML = userInputs.input4;
-//   document.getElementById("output5").innerHTML =userInputs.input5;
-//   document.getElementById("output6").innerHTML = userInputs.input6;
-//   document.getElementById("output7").innerHTML = userInputs.input7;
-//   document.getElementById("output8").innerHTML = userInputs.input8;
-//   document.getElementById("output9").innerHTML =userInputs.input9;
-
-// }

@@ -1,4 +1,4 @@
-# number-game
+# story-game
 
 Charles E. Campbell
 Jordan Kwan

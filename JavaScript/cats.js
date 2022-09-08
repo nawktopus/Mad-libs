@@ -63,9 +63,10 @@ tag.addEventListener('click', function(){
 
 
   let origin = JSON.stringify(catOrigin);
+  localStorage.setItem('Cat', origin);
+  
   let words = JSON.stringify(bank);
   localStorage.setItem('Catword', words);
-  localStorage.setItem('Cat', origin);
 
   window.location.href = 'results.html';
 })

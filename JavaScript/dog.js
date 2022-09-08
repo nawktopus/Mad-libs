@@ -14,6 +14,9 @@ let wordSeven = document.getElementById('input7');
 let wordEight = document.getElementById('input8');
 let wordNine = document.getElementById('input9');
 let wordTen = document.getElementById('input10');
+let wordEleven = document.getElementById('input11');
+let wordTwelve = document.getElementById('input12');
+let wordThirteen = document.getElementById('input13');
 //makes new obj for storing values
 let bank = new Object();
 
@@ -31,15 +34,17 @@ dogBtn.addEventListener('click', function(){
   bank.inEight = wordEight.value;
   bank.inNine = wordNine.value;
   bank.inTen = wordTen.value;
+  bank.inEleven = wordEleven.value;
+  bank.inTwelve = wordTwelve.value;
+  bank.inThirteen = wordThirteen.value;
 
   let words = JSON.stringify(bank);
   let boolean = JSON.stringify(origin)
   let dogOrigin = localStorage.setItem('Dog', boolean)
   localStorage.setItem('Dogword', words);
-  
-  console.log(dogOrigin)
+  console.log(dogOrigin);
 
-  window.location.href = 'results.html'
+  window.location.href = 'results.html';
 })
 
 function submitInputs() { //The user has hit Submit. Collects data from the form.
@@ -59,12 +64,12 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
   submitInputs(); //Collects any data from the form.
 
 //Charles added local storage for dog
-tag.addEventListener('click', function(){
-  window.open(editor.html);
-  localStorage.setItem('test', 'All my words');
-  localStorage.getItem('test');
-  window.open(results.html);
-})
+// tag.addEventListener('click', function(){
+//   window.open(editor.html);
+//   localStorage.setItem('test', 'All my words');
+//   localStorage.getItem('test');
+//   window.open(results.html);
+// })
 
 // function createMadLibs() { //Creates the story.
 //   document.getElementById("theStory").innerHTML = theStory;

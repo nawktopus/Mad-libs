@@ -50,16 +50,16 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
 tag.addEventListener('click', function(){
   catOrigin = true;
 
-  bank.inOne = wordOne.value;
-  bank.inTwo = wordTwo.value;
-  bank.inThree = wordThree.value;
-  bank.inFour = wordFour.value;
-  bank.inFive = wordFive.value;
-  bank.inSix = wordSix.value;
-  bank.inSeven = wordSeven.value;
-  bank.inEight = wordEight.value;
-  bank.inNine = wordNine.value;
-  bank.inTen = wordTen.value;
+  bank.catOne = wordOne.value;
+  bank.catTwo = wordTwo.value;
+  bank.catThree = wordThree.value;
+  bank.catFour = wordFour.value;
+  bank.catFive = wordFive.value;
+  bank.catSix = wordSix.value;
+  bank.catSeven = wordSeven.value;
+  bank.catEight = wordEight.value;
+  bank.catNine = wordNine.value;
+  bank.catTen = wordTen.value;
 
 
   let origin = JSON.stringify(catOrigin);

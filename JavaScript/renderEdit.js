@@ -3,6 +3,7 @@ let tagOne = document.getElementById('inOne');
 let tagTwo = document.getElementById('inTwo');
 let tagThree = document.getElementById('inThree');
 let tagFour = document.getElementById('inFour');
+
 //getting values from results2 html
 let One = document.getElementById('storyOne');
 let Two = document.getElementById('storyTwo');
@@ -35,3 +36,4 @@ function makeWords () {
 }
 
 makeWords();
+

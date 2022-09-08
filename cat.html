@@ -5,82 +5,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mad Libs</title>
-    <link rel="stylesheet" href="style.css">
-    <a href="dog.html">dog</a>
-    <a href="Halloween.html">home</a>
-    <script src="app.js"></script>
+    <title>Cat Story</title>
+    <link rel="stylesheet" href="styles.css">
+    <nav>
+    <a class="button" href="index.html">Quit</a>
+    <a class="button" href="Halloween.html">Halloween</a>
+    <a class="button" href="dog.html">Dog</a>
+    </nav>
 </head>
+<body>   
+    <div id="content">
+        <h1 class="hallo">The Story About a Cat</h1>
+        <p class="instructions"><strong>Instructions:</strong> Fill in the blanks for a fun cat story. Pay close attention to the type of words to use.</p>
+        <form action="" onsubmit="submitInputs();return false">
+            <div class="form-group-row">
+                <label class="Cat" for="silly word">Silly Word</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="input1" required="" type="text">
+                </div>
+            </div>
+            <div class="form-group-row">
+                <label class="Cat" for="animal">Animal</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="input2" required="" type="text">
+                </div>
+            </div>
+            <div class="form-group-row">
+                <label class="Cat" for="adjective">Adjective</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="input3" required="" type="text">
+                </div>
+            </div>
+            <div class="form-group-row">
+                <label class="Cat" for="noun">Noun</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="input4" required="" type="text">
+                </div>
+            </div>
+            <div class="form-group-row">
+                <label class="Cat" for="food">Food</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="input5" required="" type="text">
+                </div>
+            </div>
+            <div class="form-group-row">
+                <label class="Cat" for="color">Color</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="input6" required="" type="text">
+                </div>
+            </div>
+            <div class="form-group-row">
+                <label class="Cat" for="verb">Verb</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="input7" required="" type="text">
+                </div>
+            </div>
+            <div class="form-group-row">
+                <label class="Cat" for="emotion">Emotion</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="input8" required="" type="text">
+                </div>
+            </div>
 
-<body>
-    <div id="container">
-        <header>
-            <h1>cat Mad Libs</h1>
-            <h2> Fun Mad Libs</h2>
-            <p> Mad Libs are stories , fill in the blank for a fun cat story.</p>
-
-        </header>
-        <main>
-            <form id="Madlibs-form" name="Madlibs-form" onsubmit="submitMadLibs(event)">
-                <section id="inputs">
-                    <div class="all-inputs">
-                        <label for="verb"> verb</label>
-                        <input type="text" id="cat-verb" name="verb" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="adjective">adjective</label>
-                        <input type="text" id="cat-adjective" name="adjective" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="plural Noun">plural</label>
-                        <input type="text" id="cat-plural" name="plural Noun" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="number"> number</label>
-                        <input type="number" id="cat-number" name="number" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="verb">verb</label>
-                        <input type="text" id="cat-verb2" name="verb" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="plural Noun"> plural Noun</label>
-                        <input type="text" id="cat-plural2" name="plural Noun" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="number"> number</label>
-                        <input type="number" id="number2" name="number" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="dinosaur"> tyoe of dinosaur</label>
-                        <input type="text" id="dinosaur" name="dinosaur" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="bug">bug</label>
-                        <input type="text" id="bug" name="bug" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="color">color</label>
-                        <input type="text" id="color" name="color" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="fast food">fast food</label>
-                        <input type="text" id="fast-food" name="fast-food" required>
-                    </div>
-
-                </section>
-                <section id="submit">
-                    <button id="submit-btn" type="submit">submit</button>
-                </section>
-            </form>
-        </main>
+            <div class="form-group-row">
+                <label class="Cat" for="store-name">Store Name</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="input9" required="" type="text">
+                </div>
+            <div class="form-group-row">
+                <label class="Cat" for="things">Things (plural)</label>
+                <div class="col-sm-7">
+                    <input class="form-control" id="input10" required="" type="text">
+                </div>
+                 
+                </div>
+                <div class="form-group-row">
+                    <!-- <button class="btn btn-primary" type="submit">Submit</button> -->
+                    <!-- <div id="result-btn"> -->
+                    <button class="btn-primary" id="result-btn">See Story</button>
+                    <!-- </div> -->
+                </div>
+        </form>
     </div>
-    <!-- <p id="results">
-        "I can't believe it's already _______! I can't wait to put on my ________ and visit _________ in my
-        neighborhood, this year, I am going to dress up as a _______ with _______. Before i _______ I make sure to grab
-        my _______ _______ to hold all of mt _______. Finally, all of my _______ are ready to go."
-    </p> -->
-
+    <script src="JavaScript/cats.js"></script>
 </body>
 
 </html>

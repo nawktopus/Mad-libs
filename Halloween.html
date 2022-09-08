@@ -5,74 +5,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mad Libs</title>
-    <link rel="stylesheet" href="style.css">
-    <a href="cat.html">cat</a>
-    <a href="dog.html">dog</a>
-    <script src="app.js"></script>
+
+    <title>Halloween Story</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="app.js"></script> -->
+
+    <nav>
+    <a class="button" href="index.html">Quit</a>
+    <a class="button" href="dog.html">Dog</a>
+    <a class="button" href="cat.html">Cat</a>
+    </nav>
+
 </head>
 
 <body>
-    <div id="container">
-        <header>
-            <h1>Halloween Mad Libs</h1>
-            <h2> Fun Mad Libs</h2>
-            <p> Mad Libs are stories , fill in the blank for a fun Halloween story.</p>
 
-        </header>
-        <main>
-            <form id="Madlibs-form" name="Madlibs-form" onsubmit="submitMadLibs(event)">
-                <section id="inputs">
-                    <div class="all-inputs">
-                        <label for="Holiday"> Holiday</label>
-                        <input type="text" id="holiday" name="Holiday" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="costume"> Halloween costume</label>
-                        <input type="text" id="costume" name="costume" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="place">place</label>
-                        <input type="text" id="place" name="place" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="person"> person</label>
-                        <input type="text" id="person" name="person" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="Adjective"> Adjective</label>
-                        <input type="text" id="Adjective" name="Adjective" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="verb"> verb</label>
-                        <input type="text" id="verb" name="verb" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="Adjective2"> Adjective</label>
-                        <input type="text" id="Adjective2" name="Adjective2" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="food"> food</label>
-                        <input type="text" id="food" name="food" required>
-                    </div>
-                    <div class="all-inputs">
-                        <label for="PLURAL">PLURAL NOUN</label>
-                        <input type="text" id="PLURAL" name="PLURAL" required>
-                    </div>
+    <div id="content">
+        <h1 class="hallo">The Story about Halloween</h1>
+        <p class="instructions"><strong>Instructions:</strong> Fill in the blanks for a fun halloween story. Pay close attention to the type of words to use.</p>
+        <form action="" onsubmit="submitInputs();return false">
 
-                </section>
-                <section id="submit">
-                    <button id="submit-btn" type="submit">submit</button>
-                </section>
-            </form>
-        </main>
+            <div class="form-group-row">
+                <label for="Holiday"> Holiday</label>
+                <div class="col-sm-7">
+                    <input type="text" id="input1" name="Holiday" required>
+                </div>
+            </div>
+
+            <div class="form-group-row">
+                <label for="costume"> Halloween Costume</label>
+                <div class="col-sm-7">
+                    <input type="text" id="input2" name="costume" required>
+                </div>
+            </div>
+
+            <div class="form-group-row">
+                <label for="place">Place</label>
+                <div class="col-sm-7">
+                    <input type="text" id="input3" name="place" required>
+                </div>
+            </div>
+
+            <div class="form-group-row">
+                <label for="person"> Person</label>
+                <div class="col-sm-7">
+                    <input type="text" id="input4" name="person" required>
+                </div>
+            </div>
+
+            <div class="form-group-row">
+                <label for="Adjective"> Adjective</label>
+                <div class="col-sm-7">
+                    <input type="text" id="input5" name="Adjective" required>
+                </div>
+            </div>
+
+            <div class="form-group-row">
+                <label for="verb"> Verb</label>
+                <div class="col-sm-7">
+                    <input type="text" id="input6" name="verb" required>
+                </div>
+            </div>
+
+            <div class="form-group-row">
+                <label for="Adjective2"> Adjective</label>
+                <div class="col-sm-7">
+                    <input type="text" id="input7" name="Adjective2" required>
+                </div>
+            </div>
+
+            <div class="form-group-row">
+                <label for="food"> Food</label>
+                <div class="col-sm-7">
+                    <input type="text" id="input8" name="food" required>
+                </div>
+            </div>
+
+            <div class="form-group-row">
+                <label for="PLURAL">Plural Noun</label>
+                <div class="col-sm-7">
+                    <input type="text" id="input9" name="PLURAL" required>
+                </div>
+            </div>
+
+            <div class="form-group row">
+            <button id="halloweenBtn" class="btn-primary" type="submit">See Story</button>
+
+            </div>
+        </form>
     </div>
-    <p id="results">
-        "I can't believe it's already _______! I can't wait to put on my ________ and visit _________ in my
-        neighborhood, this year, I am going to dress up as a _______ with _______. Before i _______ I make sure to grab
-        my _______ _______ to hold all of mt _______. Finally, all of my _______ are ready to go."
-    </p>
-
+    
+    <script src="JavaScript/halloween.js"></script>
 </body>
 
 </html>

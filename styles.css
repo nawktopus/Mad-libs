@@ -331,3 +331,11 @@ form {
     line-height: 100px
 
 }
+
+#res {
+    display: inline-block;
+}
+
+#fake {
+    background-color: #357688;
+}

@@ -46,7 +46,7 @@ let pass = false;
 // }
 
 
-sub.addEventListener('click', function(){
+sub.addEventListener('click', function () {
     let checkOne = false;
     let checkTwo = false;
     localStorage.setItem('sentenceOne', typeOne.value);
@@ -58,20 +58,20 @@ sub.addEventListener('click', function(){
     choices.choiceTwo = document.getElementById('dropTwo').value;
     choices.choiceThree = document.getElementById('dropThree').value;
     choices.choiceFour = document.getElementById('dropFour').value;
-    
+
     let choice = JSON.stringify(choices);
     localStorage.setItem('drop', choice);
     console.log('Values stored');
-    
-    if(dropOne.value === ''){
+
+    if (dropOne.value === '') {
         dropOne.required = true;
-    }else if (dropTwo.value === ''){
+    } else if (dropTwo.value === '') {
         dropTwo.required = true;
-    }else if (dropThree.value === ''){
+    } else if (dropThree.value === '') {
         dropThree.required = true;
-    }else if(dropFour.value === ''){
+    } else if (dropFour.value === '') {
         dropFour.required = true;
-    }else{
+    } else {
         checkOne = true;
         dropOne.required = false;
         dropTwo.required = false;
@@ -80,15 +80,15 @@ sub.addEventListener('click', function(){
         // window.location.href = 'editor-results.html';
     }
 
-    if(typeOne.value === ''){
+    if (typeOne.value === '') {
         typeOne.required = true;
-    } else if(typeTwo.value === ''){
+    } else if (typeTwo.value === '') {
         typeTwo.required = true;
-    } else if (typeThree.value === ''){
+    } else if (typeThree.value === '') {
         typeThree.required = true;
-    }else if (typeFour.value === ''){
+    } else if (typeFour.value === '') {
         typeFour.required = true;
-    }else {
+    } else {
         checkTwo = true;
         typeOne.required = false;
         typeTwo.required = false;
@@ -98,12 +98,12 @@ sub.addEventListener('click', function(){
         // window.location.href = 'editor-results.html';
     }
 
-    if(checkOne === true && checkTwo === true){
+    if (checkOne === true && checkTwo === true) {
         window.location.href = 'editor-results.html';
     }
 })
 
-make-story.addEventListener('click', function() {
+make - story.addEventListener('click', function () {
     JSON.parse(window.localStorage.getItem(choice));
     window.location.href = 'results2.html';
 })

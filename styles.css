@@ -344,3 +344,7 @@ img:hover {
 @keyframes spinner {
     100% { transform: rotate(360deg) }
   }
+
+  .info {
+    text-align: center;
+  }

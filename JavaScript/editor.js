@@ -9,6 +9,7 @@ let dropThree = document.getElementById('dropThree');
 let dropFour = document.getElementById('dropFour');
 let choices = new Object();
 let pass = false;
+
 // //getting variable tags from results2 html
 // let tagOne = document.getElementById('inOne');
 // let tagTwo = document.getElementById('inTwo');
@@ -107,4 +108,3 @@ make-story.addEventListener('click', function() {
     window.location.href = 'results2.html';
 })
 
-// makeWords()

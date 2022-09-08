@@ -18,10 +18,6 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
   userInputs.input9= document.getElementById('input9').value;
 }
   // gets the <p> for the story
-let storyOne = document.getElementById('storyOne');
-let storyTwo = document.getElementById('storyTwo');
-let storyThree = document.getElementById('storyThree');
-let storyFour = document.getElementById('storyFour');
 let showStory = document.getElementById('make-story'); 
 let wordOne = document.getElementById('inputOne');
 let wordTwo = document.getElementById('inputTwo');
@@ -44,11 +40,6 @@ let editResult = new Object();
 
 // manipulates the <h3> and <p> to have the user input from the previous page
 function render(){
-  // sets the text content of the <p> tags to whatever is in local storage
-  storyOne.textContent = localStorage.getItem('sentenceOne');
-  storyTwo.textContent = localStorage.getItem('sentenceTwo');
-  storyThree.textContent = localStorage.getItem('sentenceThree');
-  storyFour.textContent = localStorage.getItem('sentenceFour');
   //gets the object from local storage and parses it back into an object
   let newValue = localStorage.getItem('drop');
   let obj = JSON.parse(newValue);
@@ -74,39 +65,38 @@ showStory.addEventListener('click', function(){
 
   window.location.href = 'results2.html';
 })
-
 render();
 // end render section
 
-createMadLibs(); //Calls the function to write the story.
+// createMadLibs(); //Calls the function to write the story.
 
   submitInputs(); //Collects any data from the form.
-function createMadLibs() { //Creates the story.
-  document.getElementById("theStory").innerHTML = theStory;
-//   document.getElementById("theStory2").innerHTML = theStory2;
-  document.getElementById("output1").innerHTML = userInputs.input1;
-  document.getElementById("output2").innerHTML = userInputs.input2;
-  document.getElementById("output3").innerHTML = userInputs.input3;
-  document.getElementById("output4").innerHTML = userInputs.input4;
-  document.getElementById("output5").innerHTML =userInputs.input5;
-  document.getElementById("output6").innerHTML = userInputs.input6;
-  document.getElementById("output7").innerHTML = userInputs.input7;
-  document.getElementById("output8").innerHTML = userInputs.input8;
-  document.getElementById("output9").innerHTML =userInputs.input9;
+// function createMadLibs() { //Creates the story.
+//   document.getElementById("theStory").innerHTML = theStory;
+// //   document.getElementById("theStory2").innerHTML = theStory2;
+//   document.getElementById("output1").innerHTML = userInputs.input1;
+//   document.getElementById("output2").innerHTML = userInputs.input2;
+//   document.getElementById("output3").innerHTML = userInputs.input3;
+//   document.getElementById("output4").innerHTML = userInputs.input4;
+//   document.getElementById("output5").innerHTML =userInputs.input5;
+//   document.getElementById("output6").innerHTML = userInputs.input6;
+//   document.getElementById("output7").innerHTML = userInputs.input7;
+//   document.getElementById("output8").innerHTML = userInputs.input8;
+//   document.getElementById("output9").innerHTML =userInputs.input9;
 
-  localStorage.setItem('submitInPuts', JSON.stringify(submitInputs));
-}
+//   localStorage.setItem('submitInPuts', JSON.stringify(submitInputs));
+// }
 
-function clearForm() { 
-  userInputs = { input1:"", inputs2:"", inputs3:"", inputs4:"", inputs5:"", inputs6:"", inputs7:"", inputs8:"", inputs9:"", };
-  document.getElementById("theStory").innerHTML = "";
-  document.getElementById('input1').value = "";
-  document.getElementById('input2').value = "";
-  document.getElementById('input3').value = "";
-  document.getElementById('input4').value = "";
-  document.getElementById('input5').value = "";
-  document.getElementById('input6').value = "";
-  document.getElementById('input7').value = "";
-  document.getElementById('input8').value = "";
-  document.getElementById('input9').value = "";
-}
+// function clearForm() { 
+//   userInputs = { input1:"", inputs2:"", inputs3:"", inputs4:"", inputs5:"", inputs6:"", inputs7:"", inputs8:"", inputs9:"", };
+//   document.getElementById("theStory").innerHTML = "";
+//   document.getElementById('input1').value = "";
+//   document.getElementById('input2').value = "";
+//   document.getElementById('input3').value = "";
+//   document.getElementById('input4').value = "";
+//   document.getElementById('input5').value = "";
+//   document.getElementById('input6').value = "";
+//   document.getElementById('input7').value = "";
+//   document.getElementById('input8').value = "";
+//   document.getElementById('input9').value = "";
+// }

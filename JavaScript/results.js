@@ -78,26 +78,28 @@ function origin (){
         let catwords = localStorage.getItem('Catword');
         let value = JSON.parse(catwords);
 
-        pOne.textContent = 'My cat, ';
-        pTwo.textContent = value.catOne;
-        pThree.textContent = 'is the best kitten ever! Her Mom was a tabby cat and her dad was a ';
-        pFour.textContent = value.catTwo;
-        pFive.textContent = 'so she looks more like a(n) ';
-        pSix.textContent = value.catThree;
-        pSeven.textContent = value.catFour;
-        pEight.textContent = 'Her favorite food is ';
-        pNine.textContent = value.catFive;
-        pTen.textContent = ', but only if you dye it ';
-        pEleven.textContent = value.catSix;
-        pTwelve.textContent = '. One of our favorite games is to ';
-        pThirteen.textContent = value.catSeven;
-        pFourteen.textContent = 'in my bed room (except she always wins). Yesterday I felt ';
-        pFifteen.textContent = value.catEight;
-        pSixteen.textContent = 'because I thought she had run away... but it turns out she went to ';
-        pSeventeen.textContent = value.catNine;
-        pEighteen.textContent = 'all day because we were out of ';
-        pNineteen.textContent = value.catTen;
-        pTwenty.textContent = '. What a thoughtful kitten!';
+        pOne.textContent = `My cat,${value.catOne} is the best kitten ever! Her Mom was a tabby cat and her dad was a ${value.catTwo} so she looks more like a(n) ${value.catThree} ${value.catFour} Her favorite food is ${value.catFive} , but only if you dye it ${value.catSix} . One of our favorite games is to ${value.catSeven} in my bed room (except she always wins). Yesterday I felt ${value.Eight} because I thought she had run away... but it turns out she went to ${value.catNine} all day because we were out of ${cat.valueTen} . What a thoughtful kitten!` ;
+
+        // pOne.textContent = 'My cat, ';
+        // pTwo.textContent = value.catOne;
+        // pThree.textContent = 'is the best kitten ever! Her Mom was a tabby cat and her dad was a ';
+        // pFour.textContent = value.catTwo;
+        // pFive.textContent = 'so she looks more like a(n) ';
+        // pSix.textContent = value.catThree;
+        // pSeven.textContent = value.catFour;
+        // pEight.textContent = 'Her favorite food is ';
+        // pNine.textContent = value.catFive;
+        // pTen.textContent = ', but only if you dye it ';
+        // pEleven.textContent = value.catSix;
+        // pTwelve.textContent = '. One of our favorite games is to ';
+        // pThirteen.textContent = value.catSeven;
+        // pFourteen.textContent = 'in my bed room (except she always wins). Yesterday I felt ';
+        // pFifteen.textContent = value.catEight;
+        // pSixteen.textContent = 'because I thought she had run away... but it turns out she went to ';
+        // pSeventeen.textContent = value.catNine;
+        // pEighteen.textContent = 'all day because we were out of ';
+        // pNineteen.textContent = value.catTen;
+        // pTwenty.textContent = '. What a thoughtful kitten!';
 
         //change <p> to cat story and cat variables
 

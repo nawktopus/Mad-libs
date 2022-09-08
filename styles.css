@@ -31,10 +31,6 @@ body {
     text-align: center;
 }
 
-#content p {
-    margin: 0 auto;
-}
-
 form {
     /* margin: 0 auto; */
     /* width: 55%;
@@ -61,8 +57,8 @@ form {
 /*Charles added index.html CSS  */
 .button {
     display: block;
-    width: 150px;
-    height: 25px;
+    width: 240px;
+    height: 30px;
     background: #4E9CAF;
     padding: 10px;
     text-align: center;
@@ -71,6 +67,7 @@ form {
     font-weight: bold;
     line-height: 25px;
     font-family: "Comic Sans", cursive;
+    font-size: 30px;
 }
 
 .button:hover {
@@ -199,7 +196,8 @@ body{
     border: solid 5px #357688;
     border-radius: 30px;
     max-width: 700px;
-    font-family:'Rubik', sans-serif;
+    font-size: larger;
+    font-family: "Comic Sans", cursive;
 }
 .instructions p {
     font-size: large;
@@ -271,7 +269,7 @@ body{
     font-size: large;
     background-color: #EEBE14; font-size: larger;
     font-family: "Comic Sans", cursive;
-} */
+    
 .btn-primary {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -323,7 +321,13 @@ body{
     font-family: "Comic Sans", cursive;
 }
 
-.instructions {
-    font-size: larger;
-    font-family: "Comic Sans", cursive;
+
+form {
+    margin-top: 10px;
+}
+
+.hallo {
+    display: inline;
+    line-height: 100px
+
 }

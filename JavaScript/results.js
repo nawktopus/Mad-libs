@@ -25,13 +25,13 @@ let pSeventeen = document.getElementById('Seventeen');
 let pEighteen = document.getElementById('Eighteen');
 let pNineteen = document.getElementById('Nineteen');
 let pTwenty = document.getElementById('Twenty');
-let pTwentyone = document.getElementById('Twentyone');
-let pTwentyTwo = document.getElementById('Twentytwo');
-let pTwentythree = document.getElementById('Twentythree');
-let ptwentyfour = document.getElementById('Twentyfour');
-let pTwentyfive = document.getElementById('Twentyfive');
-let pTwentysix = document.getElementById('Twentysix');
-let pTwentyseven = document.getElementById('Twentyseven');
+let pTwentyOne = document.getElementById('TwentyOne');
+let pTwentyTwo = document.getElementById('TwentyTwo');
+let pTwentyThree = document.getElementById('TwentyThree');
+let pTwentyFour = document.getElementById('TwentyFour');
+let pTwentyFive = document.getElementById('TwentyFive');
+let pTwentySix = document.getElementById('TwentySix');
+let pTwentySeven = document.getElementById('TwentySeven');
 
 
 function origin (){
@@ -66,6 +66,7 @@ function origin (){
         pTwentythree.textContent = values.inTwelve;
         ptwentyfour.textContent = values.inThirteen;
         //change <p> to the dog story and dog variables
+        pOne.textContent = 'catOne.value';
 
 
         console.log('dog is true')
@@ -74,10 +75,9 @@ function origin (){
         localStorage.setItem('Dog', stringDog)
     }else if (cat === true){
         //if we came from cat
-
+        pOne
         //change <p> to cat story and cat variables
-
-
+       
         console.log('cat is true')
         cat = false;
         let stringCat = JSON.stringify(cat);

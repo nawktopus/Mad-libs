@@ -25,7 +25,7 @@ let pSeventeen = document.getElementById('Seventeen');
 let pEighteen = document.getElementById('Eighteen');
 let pNineteen = document.getElementById('Nineteen');
 let pTwenty = document.getElementById('Twenty');
-let pTwentyOne = document.getElementById('TwentyOne');
+let pTwentyone = document.getElementById('TwentyOne');
 let pTwentyTwo = document.getElementById('TwentyTwo');
 let pTwentyThree = document.getElementById('TwentyThree');
 let pTwentyFour = document.getElementById('TwentyFour');
@@ -40,7 +40,7 @@ function origin (){
         //if we came from dog
         let dogwords = localStorage.getItem('Dogword');
         let values = JSON.parse(dogwords)
-
+        
         pOne.textContent = 'You won\'t believe what my pet ';
         pTwo.textContent = values.inOne;
         pThree.textContent = values.inTwo;

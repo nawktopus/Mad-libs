@@ -59,4 +59,6 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
 
     // createMadLibs(); //Calls the function to write the story.
 }
+
 submitInputs(); //Collects any data from the form.
+

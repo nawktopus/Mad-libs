@@ -6,6 +6,12 @@ nav {
     margin-left: 10px;
 }
 
+#team {
+    display: flex;
+    justify-content: center;
+}
+
+
 nav a{
     text-decoration: none;
     font-family:'Rubik', sans-serif;
@@ -79,7 +85,7 @@ form {
 }
 
 h1 {
-    width: 200px;
+    /* width: 200px; */
     margin: 20px auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -158,6 +164,7 @@ body{
 .text-input {
     text-align: center;
     font-size: large;
+    font-family: "Comic Sans", cursive;
     display: block;
     height: 100px;
     width: 500px;
@@ -173,12 +180,12 @@ body{
     align-items: center;
     margin-bottom: 20px;
     margin-top: 20px;
-    font-family:'Rubik', sans-serif;
+    font-family:'Comic Sans', cursive;
 }
 .drop-menue {
     text-align: center;
     font-size: large;
-    font-family:'Rubik', sans-serif;
+    font-family:'Comic Sans', cursive;
 }
 .drop-menue:required {
     border: solid rgb(230, 115, 115) 5px;
@@ -192,9 +199,10 @@ body{
     margin: auto;
     border: solid 5px #357688;
     border-radius: 30px;
-    max-width: 700px;
-    font-size: larger;
+    max-width: 800px;
+    font-size: 30px;
     font-family: "Comic Sans", cursive;
+    margin-top: 10px;
 }
 .instructions p {
     font-size: large;
@@ -208,7 +216,7 @@ body{
 }
 #usr-sub {
     font-size: large;
-    font-family:'Rubik', sans-serif;
+    font-family:'Comic Sans', cursive;
     width: 500px;
     height: 50px;
     background-color: #EEBE14;
@@ -244,7 +252,7 @@ body{
     justify-content: center;
     margin: auto;
     font-size: large;
-    font-family:'Rubik', sans-serif;
+    font-family:'Comic Sans', cursive;
     width: 500px;
     height: 50px;
     background-color: #EEBE14;
@@ -276,16 +284,31 @@ body{
  background-color: #fedf70;
  color: #4c4e50;
 }
+#fun {
+display:flex;
+justify-content: center;
+height: 100px;
+width: 100px;
+margin: auto;
+}
+
+#fun:hover {
+animation: spinner 1.5s linear;
+}
+@keyframes spinner {
+    100% { transform: rotate(360deg) }
+}
+
 
 .containerbutton {
     background-color: #EEBE14;
-
+    font-family: "Comic Sans", cursive;
     transition: 0.5s;
 }
 
 .containerbutton:hover {
     background-color: blue;
-font-family: "Comic Sans", cursive;
+    font-family: "Comic Sans", cursive;
 }   
 
 #button2 {
@@ -306,11 +329,11 @@ font-family: "Comic Sans", cursive;
     font-family: "Comic Sans", cursive;
 }
 /* */
-.instructions {
+/* .instructions {
     border: thin solid black;
     width: 420px;
     margin-bottom: 10px;
-}
+} */
 
 
 .form-group-row {
@@ -332,6 +355,7 @@ form {
 
 #res {
     display: inline-block;
+    font-size: 30px;
 }
 
 #fake {
@@ -348,3 +372,31 @@ img:hover {
   .info {
     text-align: center;
   }
+
+#big {
+    font-size: 30px ;
+}
+
+.Cat {
+    font-size: 25px;
+}
+
+.Dog {
+    font-size: 25px;
+}
+
+#halo {
+    font-size: 25px;
+}
+
+#instructions {
+    font-size: 25px;
+}
+
+h3 {
+    font-family: 'Comic Sans', cursive;
+}
+
+#storyOne {
+    font-size: 30px;
+}

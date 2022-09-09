@@ -18,7 +18,6 @@ let wordThirteen = document.getElementById('input13');
 //makes new obj for storing values
 let bank = new Object();
 
-
 dogBtn.addEventListener('click', function(){
     origin = true;
 
@@ -55,7 +54,6 @@ function submitInputs() { //The user has hit Submit. Collects data from the form
     userInputs.input7 = document.getElementById('input7').value;
     userInputs.input8 = document.getElementById('input8').value;
     userInputs.input9= document.getElementById('input9').value;
-
 
     // createMadLibs(); //Calls the function to write the story.
 }

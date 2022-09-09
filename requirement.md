@@ -1,4 +1,4 @@
-## Software Requirements
+# Software Requirements
 
 Vision:
 What is the vision of this product? The vision is to create a reading learning game that improves student's reading skills by playing a reading game that requires creativity and imagination to build their own stories.

@@ -1,7 +1,5 @@
-
 //getting values from results2 html
 let One = document.getElementById('storyOne');
-
 
 function makeWords () {
 

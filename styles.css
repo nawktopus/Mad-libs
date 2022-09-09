@@ -11,7 +11,6 @@ nav {
     justify-content: center;
 }
 
-
 nav a{
     text-decoration: none;
     font-family:'Rubik', sans-serif;
@@ -30,10 +29,6 @@ nav:hover {
     display: flex;
     justify-content: space-around;
     margin: 100px;
-}
-
-body {
-    background-color: #E5E9EC;
 }
 
 #content {
@@ -72,6 +67,7 @@ form {
     font-family: "Comic Sans", cursive;
     font-size: 30px;
 }
+
 /*Charles added hover to buttons*/
 .button:hover {
     background-color: blue;
@@ -93,11 +89,13 @@ h1 {
     display: flex;
     font-family: "Comic Sans", cursive;
 }
+
 h2 {
     display: flex;
     justify-content: center;
     font-family: "Comic Sans", cursive;
 }
+
 img {
     display:relative;
     width: 600px;
@@ -115,6 +113,7 @@ img {
 section {
     display:flex;
 }
+
 .image-container {
 display: flex;
 flex-direction: column;
@@ -122,6 +121,7 @@ justify-content: center;
 align-items: center;
 margin: 5px;
 }
+
 .image-container input {
     font-size: large;
     height: 40px;
@@ -142,10 +142,11 @@ margin: 5px;
     padding-top: 20px;
 }
 
-fieldset {
+footer {
     border: 4px solid black;
     width: 820px;
     margin: auto;
+    padding: 10px;
     justify-content: center;
     justify-items: center;
     object-fit: center;
@@ -156,11 +157,10 @@ fieldset {
 }
 
 /* Sage's styles for editor.html */
-@import url('https://fonts.googleapis.com/css2?family=Rubikreu&display=swap');
-
 body{
     background-color:  #e5e9ec;
 }
+
 .text-input {
     text-align: center;
     font-size: large;
@@ -169,6 +169,7 @@ body{
     height: 100px;
     width: 500px;
 }
+
 .text-input:required{
     border: solid rgb(230, 115, 115) 5px;
 }
@@ -182,14 +183,17 @@ body{
     margin-top: 20px;
     font-family:'Comic Sans', cursive;
 }
+
 .drop-menue {
     text-align: center;
     font-size: large;
     font-family:'Comic Sans', cursive;
 }
+
 .drop-menue:required {
     border: solid rgb(230, 115, 115) 5px;
 }
+
 .instructions {
     display: flex;
     flex-direction: column;
@@ -204,16 +208,19 @@ body{
     font-family: "Comic Sans", cursive;
     margin-top: 10px;
 }
+
 .instructions p {
     font-size: large;
     padding: 5px;
 }
+
 #makestory {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
 }
+
 #usr-sub {
     font-size: large;
     font-family:'Comic Sans', cursive;
@@ -223,6 +230,7 @@ body{
     border: none;
     color: #4c4e50;
 }
+
 #usr-sub:hover {
     background-color: #fedf70;
     color: #6a809b;
@@ -235,17 +243,21 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .group {
     margin: 50px;
 }
+
 .word-input {
     height: 40px;
     font-size: large;
     text-align: center;
 }
+
 .tag {
     text-align: center;
 }
+
 #make-story {
     display: flex;
     align-items: center;
@@ -259,6 +271,7 @@ body{
     border: none;
     color: #4c4e50;
 }
+
 #make-story:hover {
     background-color: #fedf70;
     color: #6a809b;
@@ -284,6 +297,7 @@ body{
  background-color: #fedf70;
  color: #4c4e50;
 }
+
 #fun {
 display:flex;
 justify-content: center;
@@ -298,7 +312,6 @@ animation: spinner 1.5s linear;
 @keyframes spinner {
     100% { transform: rotate(360deg) }
 }
-
 
 .containerbutton {
     background-color: #EEBE14;
@@ -328,19 +341,11 @@ animation: spinner 1.5s linear;
     font-size: larger;
     font-family: "Comic Sans", cursive;
 }
-/* */
-/* .instructions {
-    border: thin solid black;
-    width: 420px;
-    margin-bottom: 10px;
-} */
-
 
 .form-group-row {
     font-size: larger;
     font-family: "Comic Sans", cursive;
 }
-
 
 form {
     margin-top: 10px;
@@ -351,7 +356,6 @@ form {
     line-height: 100px
 
 }
-
 
 #res {
     display: inline-block;
@@ -365,6 +369,7 @@ form {
 img:hover {
     animation: spinner 1.5s linear;
 }
+
 @keyframes spinner {
     100% { transform: rotate(360deg) }
   }

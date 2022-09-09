@@ -41,30 +41,7 @@ function origin (){
         let dogwords = localStorage.getItem('Dogword');
         let values = JSON.parse(dogwords);
 
-        pOne.textContent = 'You won\'t believe what my pet ';
-        pTwo.textContent = values.inOne;
-        pThree.textContent = values.inTwo;
-        pFour.textContent = ' did last';
-        pFive.textContent = values.inThree;
-        pSix.textContent = '! After a long day of';
-        pSeven.textContent = values.inFour;
-        pEight.textContent = 'at';
-        pNine.textContent = values.inFive;
-        pTen.textContent = ', I came home to find what he/she had';
-        pEleven.textContent = values.inSix;
-        pTwelve.textContent = 'all over the new';
-        pThirteen.textContent = values.inSeven;
-        pFourteen.textContent = '. I had just bought it last';
-        pFifteen.textContent = values.inEight;
-        pSixteen.textContent = ', and it\'s already';
-        pSeventeen.textContent = values.inNine;
-        pEighteen.textContent = '. I have no idea what I\'m going to do about this. I do know, however, that I need to punish my pet! I was considering';
-        pNineteen.textContent = values.inTen;
-        pTwenty.textContent = 'him/her, but I felt that was a bit';
-        pTwentyOne.textContent = values.inEleven;
-        pTwentyTwo.textContent = '. Maybe I should let it slide and try to calm down by eating my comfort food';
-        pTwentyThree.textContent = values.inTwelve;
-        pTwentyFour.textContent = values.inThirteen;
+        pOne.textContent = `You won\'t believe what my pet ${values.inOne} ${values.inTwo} did last ${values.inThree} ! After a long day of ${values.inFour} at ${values.inFive} , I came home to find out what he/she had ${values.inSix} all over the new ${values.inSeven}. I just bought it last ${values.inEight}, and it\'s already ${values.inNine}. I have no idea what I\'m going to do about this. I do know, however, that I need to punish my pet! I was considering ${values.inTen} him/her, but I felt that was a bit ${values.inEleven}. Maybe I should let it slide and try to calm down by eating my comfort food ${values.inTwelve} ${values.inThirteen}.`
         //change <p> to the dog story and dog variables
 
         console.log('dog is true');

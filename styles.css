@@ -353,3 +353,13 @@ form {
     background-color: #357688;
 }
 
+img:hover {
+    animation: spinner 1.5s linear;
+}
+@keyframes spinner {
+    100% { transform: rotate(360deg) }
+  }
+
+  .info {
+    text-align: center;
+  }

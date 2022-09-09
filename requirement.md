@@ -20,5 +20,5 @@ Minimum Viable Product vs:
 What will your MVP functionality be?
 User will be able to select type of story game from cat, dog or halloween or create their own story game. Select from the following options: noun, verb, adjective or adverb and input their own word. Once done, they will see the results of their creativity.  No profile is created to ensure security of minors.
 
-Dat Flow:
+Data Flow:
 Users input their options in text input fields, the data is stored using local storage in the browser and render on the results pages.

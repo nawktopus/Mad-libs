@@ -114,28 +114,8 @@ function origin (){
         //if we came from halloween
         let halloweenWords = localStorage.getItem('HalloweenWords');
         let values = JSON.parse(halloweenWords);
-
-        pOne.textContent ='I can\'t believe it\'s already';
-        pTwo.textContent = values.inOne;
-        pThree.textContent = '! I can\'t wait to put on my';
-        pFour.textContent = values.inTwo;
-        pFive.textContent = 'and visit every';
-        pSix.textContent = values.inThree;
-        pSeven.textContent = 'in my neighborhood. This year, I am going to dress up as (a)';
-        pEight.textContent = values.inFour;
-        pNine.textContent = ' with';
-        pTen.textContent = values.inFive;
-        pEleven.textContent = values.inSix;
-        pTwelve.textContent = '. Before I';
-        pThirteen.textContent = values.inSeven;
-        pFourteen.textContent = 'I make sure to grab my';
-        pFifteen.textContent = values.inEight;
-        pSixteen.textContent = values.inNine;
-        pSeventeen.textContent = 'to hold all of my';
-        pEighteen.textContent = '';
-        pNineteen.textContent = '. Finally, all of my';
-        pTwenty.textContent = '';
-        pTwentyOne.textContent = 'are ready to go!';
+        //Charles create string literals for halloween
+        pOne.textContent =`I can\'t believe it\'s already ${values.inOne} ! I can\'t wait to put on my ${values.inTwo} and visit every ${values.inThree} in my neighborhood. This year, I am going to dress up as (a) ${values.inFour}  with ${values.inFive} . Before I ${values.inSix} I make sure to grab my ${values.inSeven} to hold all of my ${values.inEight} . Finally, all of my ${values.inNine} are ready to go! ${values.inNine}`;
 
         //change <p> Halloween story and halloween variables
 

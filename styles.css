@@ -276,6 +276,21 @@ body{
  background-color: #fedf70;
  color: #4c4e50;
 }
+#fun {
+display:flex;
+justify-content: center;
+height: 100px;
+width: 100px;
+margin: auto;
+}
+
+#fun:hover {
+animation: spinner 1.5s linear;
+}
+@keyframes spinner {
+    100% { transform: rotate(360deg) }
+}
+
 
 .containerbutton {
     background-color: #EEBE14;

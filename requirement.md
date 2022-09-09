@@ -4,6 +4,7 @@ Vision:
 What is the vision of this product? The vision is to create a reading learning game that improves student's reading skills by playing a reading game that requires creativity and imagination to build their own stories.
 
 What pain point does this project solve? This Story Game is a fun game that helps struggling K-8 Grade Students improve their reading outcomes.
+Due to the Covid Pandemic, researchers have discovered a large decline in US Children’s Education Achievement overall And a Historic Widening in Achievement Gaps by race and economic status.  The achievement loss is far greater than most Educators and Parents seem to realize.
 
 Why should we care about your product?
 Data from the Education Department showed that students lost ground in reading and math during the Covid Pandemic.  
